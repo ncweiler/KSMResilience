@@ -15,9 +15,9 @@
 #title{
     position:absolute;
     display:block;
-    width:auto;
-    margin:0% 30% 0% 30%;
-    font-size:2em;
+    width:50%;
+    margin:0% 25% 0% 25%;
+    font-size:2.5em;
     color:white;
     font-weight:bold;
     font-family:Garamond, sansserif;
@@ -94,7 +94,8 @@
 }
 
 #mainpage>.thumbnail.horizctr{
-    margin-left:28%;
+    margin-left:30%;
+    margin-right:30%;
 }
 
 #mainpage>.thumbnail img{
