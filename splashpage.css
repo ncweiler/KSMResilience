@@ -3,7 +3,7 @@
     display:block;
     background-color:skyblue;
     border: 1px solid #ccc;
-    height:10%;
+    height:6em;
     width:98.5%;
     margin-left:0%;
     margin-right:0%;
@@ -17,7 +17,7 @@
     display:block;
     width:50%;
     margin:0% 25% 0% 25%;
-    font-size:2.5em;
+    font-size:2em;
     color:white;
     font-weight:bold;
     font-family:Garamond, sansserif;
@@ -61,8 +61,8 @@
 #mainpage{
     position:absolute;
     width:98.5%;
-    height:90%;
-    margin-top: 10%;
+    height:60em;
+    margin-top: 6em;
     display:inline-block;
     background-color:white;
     clear:both;
@@ -70,8 +70,8 @@
 
 #mainpage>.thumbnail{
     position:absolute;
-    width:40%;
-    height:40%;
+    width:25em;
+    height:25em;
     display:block;
     text-align:center;
     clear:both;
@@ -117,7 +117,7 @@
     width:60%;
     height:30%;
     margin-left: 20%;
-    margin-top: 70%;
+    margin-top: 55%;
 
     color: white;
     font: bold 24px/45px Helvetica, Sans-Serif;
