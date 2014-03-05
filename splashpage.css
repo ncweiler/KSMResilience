@@ -23,27 +23,32 @@
     font-family:Garamond, sansserif;
 }
 
-
-#header>.leftbutton{
+#header>.button{
     position:absolute;
-    display:inline-block;
+    display:block;
 
     height:90%;
     width:10%;
-    margin:0% 0% 0% 2%;
-    text-align:center;
-
-    float:left;
 }
 
-#header>.leftbutton img{
+#header>.left.button{
+    margin:0% 0% 0% 2%;
+    text-align:center;
+}
+
+#header>.right.button{
+    margin:0% 0% 0% 88%;
+    text-align:center;
+}
+
+#header>.button img{
     position:static;
     display:block;
     height:80%;
     width:100%;
 }
 
-#header>.leftbutton p{
+#header>.button p{
     z-index=1;
     display:block;
     position:static;
@@ -52,7 +57,7 @@
     text-align: center;
 }
 
-#home{}
+
 
 
 #mainpage{
