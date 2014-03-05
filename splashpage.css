@@ -29,17 +29,12 @@
 
     height:90%;
     width:10%;
-}
 
-#header>.left.button{
-    margin:0% 0% 0% 2%;
     text-align:center;
 }
 
-#header>.right.button{
-    margin:0% 0% 0% 88%;
-    text-align:center;
-}
+#header>.left.button{margin:0% 0% 0% 2%;}
+#header>.right.button{margin:0% 0% 0% 88%;}
 
 #header>.button img{
     position:static;
@@ -57,8 +52,11 @@
     text-align: center;
 }
 
+#header>.button a{
+    text-decoration: none;
+}
 
-
+#header>.button a:hover{}
 
 #mainpage{
     position:absolute;
@@ -70,7 +68,7 @@
     clear:both;
 }
 
-.thumbnail{
+#mainpage>.thumbnail{
     position:absolute;
     width:40%;
     height:40%;
@@ -79,27 +77,27 @@
     clear:both;
 }
 
-.thumbnail.top{
+#mainpage>.thumbnail.top{
     margin-top:5%;
 }
 
-.thumbnail.bottom{
+#mainpage>.thumbnail.bottom{
     margin-top:50%;
 }
 
-.thumbnail.left{
+#mainpage>.thumbnail.left{
     margin-left:5%;
 }
 
-.thumbnail.right{
+#mainpage>.thumbnail.right{
     margin-left:55%;
 }
 
-.thumbnail.middle{
+#mainpage>.thumbnail.horizctr{
     margin-left:28%;
 }
 
-.thumbnail img{
+#mainpage>.thumbnail img{
     position:absolute;
     display:block;
     width:100%;
@@ -107,12 +105,12 @@
 
 }
 
-img:hover{
+#mainpage>.thumbnail img:hover{
     opacity:.5
 }
 
 
-.thumbnail p{
+#mainpage>.thumbnail p{
     display:inline;
     position:absolute;
     top:40%;
@@ -125,10 +123,10 @@ img:hover{
    padding: 10px;
 }
 
-.thumbnail p:nth-child(2){
+#mainpage>.thumbnail p:nth-child(2){
     font-size:32;
 }
 
-.thumbnail p:nth-child(3){
+#mainpage>.thumbnail p:nth-child(3){
     font-size:32;
 }
