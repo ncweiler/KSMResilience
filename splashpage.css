@@ -44,13 +44,28 @@
     margin-left:2%;
     margin-right:2%;
     text-align:center;
+    clear:both;
 }
 
-#casestudies{float:left;clear:right;}
-#planning{float:left;}
+#casestudies{
+    float:left;
+    top:10em
+}
 
-#risk{float:right;}
-#networks{float:right;}
+#planning{
+    float:left;
+    top:-10em
+}
+
+#risk{
+    float:right;
+    top:-10em
+}
+
+#networks{
+    float:right;
+    top:-30em
+}
 
 .thumbnail img{
     position:relative;
