@@ -48,19 +48,45 @@
 
 #home{}
 
+
+#mainpage{
+    position:absolute;
+    width:98.5%;
+    height:90%;
+    margin-top: 10%;
+    display:inline-block;
+    background-color:white;
+    clear:both;
+}
+
 .thumbnail{
-    position:relative;
-    margin-top:2%;
-    width:45%;
-    display:block;
-    margin-left:2%;
-    margin-right:2%;
+    position:absolute;
+    margin:1% 15% 15% 1%;
+    /*width:45%;*/
+    display:inline-block;
     text-align:center;
     clear:both;
 }
 
+.thumbnail.top{
+    margin-top:5%;
+}
+
+.thumbnail.bottom{
+    margin-top:50%;
+}
+
+.thumbnail.left{
+    margin-left:10%;
+}
+
+.thumbnail.right{
+    margin-left:55%;
+}
+
+
+/*
 #casestudies{
-    float:left;
     top:10em
 }
 
@@ -78,6 +104,7 @@
     float:right;
     top:-30em
 }
+*/
 
 .thumbnail img{
     position:relative;
