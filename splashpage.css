@@ -197,3 +197,34 @@ font-weight: bold;
 #mainpage>.qrcode p:nth-child(3){
     margin-top:11em;
 }
+
+#resource_frame {
+    position:absolute;
+    width:97.5%;
+    height:80%;
+    margin-top: 8.5%;
+    margin-left:0.1%;
+    border: 0.3em solid black;
+    display:inline-block;
+    background-color:white;
+    clear:both;
+    overflow:hidden;
+}
+
+#resource_frame iframe {
+    position:absolute;
+    display: block;
+    height:100%;
+    width:100%;
+    overflow:hidden;
+}
+
+.caption {
+    position:absolute;
+    width:95%;
+    height:5%;
+    margin:auto;
+    margin-top:67.5%;
+    border:0.3em solid skyblue;
+    text-align:center;
+}

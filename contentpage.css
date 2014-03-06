@@ -58,11 +58,11 @@
     font-family:Garamond, sansserif;
 }
 
-.content {
+#resource_frame {
     position:absolute;
     width:97.5%;
     height:80%;
-    margin-top: 7.5%;
+    margin-top: 8.5%;
     margin-left:0.1%;
     border: 0.3em solid black;
     display:inline-block;
@@ -71,7 +71,7 @@
     overflow:hidden;
 }
 
-iframe {
+#resource_frame iframe {
     position:absolute;
     display: block;
     height:100%;
