@@ -15,8 +15,8 @@
 #title{
     position:absolute;
     display:block;
-    width:50%;
-    margin:0% 25% 0% 25%;
+    width:70%;
+    margin:0% 15% 0% 15%;
     font-size:3em; /*make sure this is bold*/
     color:white;
     font-weight:bold;
@@ -68,16 +68,6 @@
     clear:both;
 }
 
-#mainpage>.thumbnail{
-    position:absolute;
-    width:15em;
-    height:15em;
-    display:block;
-    text-align:center;
-    clear:both;
-    border-bottom:2px solid black;
-    border-right:2px solid black;
-}
 
 #mainpage .top{
     margin-top:2em;
@@ -104,7 +94,19 @@
     margin-top:18.5em;
 }
 
-#mainpage>.thumbnail img{
+
+.thumbnail{
+    position:absolute;
+    width:15em;
+    height:15em;
+    display:block;
+    text-align:center;
+    clear:both;
+    border-bottom:2px solid black;
+    border-right:2px solid black;
+}
+
+.thumbnail img{
     position:absolute;
     display:block;
     width:100%;
@@ -113,12 +115,12 @@
 
 }
 
-#mainpage>.thumbnail img:hover{
+.thumbnail img:hover{
     opacity:.5
 }
 
 
-#mainpage>.thumbnail p{
+.thumbnail p{
     display:block;
     position:absolute;
     width:75%;
@@ -136,6 +138,39 @@
     background: rgba(0, 0, 0, 0.3); /* transparency */
 
 }
+
+#splashpage .thumbnail{
+    position:relative;
+    display:inline;
+    /*text-align:center;*/
+    width:25em;
+    height:25em;
+    border-bottom:2px solid black;
+    border-right:2px solid black;
+}
+
+#splashpage #mainpage .top{
+    margin-top:2em;
+}
+
+#splashpage #mainpage .left{
+    float:left;
+    clear:left;
+    margin-left:2em;
+    margin-right:1em;
+}
+#splashpage #mainpage .right{
+    float:right;
+    clear:right;
+    margin-right:2em;
+    margin-left:1em;
+}
+#splashpage #mainpage .bottom{
+    margin-top:2em;
+}
+
+#casestudies{}
+
 
 #riskdef {
     display:block;
