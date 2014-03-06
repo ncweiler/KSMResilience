@@ -1,7 +1,7 @@
 #header{
     position:absolute;
     display:block;
-    background-color:skyblue;
+    background-color:skyblue; /*bolder color*/
     border: 1px solid #ccc;
     height:6em;
     width:98.5%;
@@ -17,7 +17,7 @@
     display:block;
     width:50%;
     margin:0% 25% 0% 25%;
-    font-size:2em;
+    font-size:3em; /*make sure this is bold*/
     color:white;
     font-weight:bold;
     font-family:Garamond, sansserif;
@@ -64,7 +64,7 @@
     height:60em;
     margin-top: 6em;
     display:inline-block;
-    background-color:white;
+    background-color:white; /*make gradient*/
     clear:both;
 }
 
@@ -75,6 +75,8 @@
     display:block;
     text-align:center;
     clear:both;
+    border-bottom:2px solid black;
+    border-right:2px solid black;
 }
 
 #mainpage .top{
@@ -107,6 +109,7 @@
     display:block;
     width:100%;
     height:100%;
+    /*bezel borders: make them pop*/
 
 }
 
@@ -124,6 +127,7 @@
     margin-left: 8%;
     margin-top: 60%;
 
+    /*captions below images*/
     color: white;
     font: bold 24px Helvetica, Sans-Serif;
     letter-spacing: 0em;
