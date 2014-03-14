@@ -273,3 +273,18 @@ font-weight: bold;
     width:60%;
     margin-left:20%;
 }
+
+.tooltiptext {
+    display: none;
+    width:340px;
+    height:520px;
+    text-align:center;
+    font-size: 18px;
+}
+
+.tooltiptext img {
+    margin:10px 10px 10px 10px;
+    height: 200px;
+    width: 200px;
+}
+
