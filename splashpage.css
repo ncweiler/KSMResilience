@@ -40,7 +40,7 @@
     position:static;
     display:block;
     height:80%;
-    width:100%;
+    width:80%;
 }
 
 #header>.button p{
@@ -254,6 +254,15 @@ font-weight: bold;
     position:absolute;
     display: block;
     height:100%;
+    width:100%;
+    overflow:hidden;
+}
+
+#rising_seas_frame {
+    position:absolute;
+    display:block;
+    margin-top:-50px;
+    height:107.5%;
     width:100%;
     overflow:hidden;
 }
