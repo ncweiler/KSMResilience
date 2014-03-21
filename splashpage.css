@@ -181,7 +181,36 @@
     margin-top:2em;
 }
 
-#casestudies{}
+#casestudies_page .thumbnail{
+    position:relative;
+    display:inline;
+    /*text-align:center;*/
+    width:25em;
+    height:25em;
+    border-bottom:2px solid black;
+    border-right:2px solid black;
+}
+
+#casestudies_page #mainpage .top{
+    margin-top:2em;
+}
+
+#casestudies_page #mainpage .left{
+    float:left;
+    clear:left;
+    margin-left:2em;
+    margin-right:1em;
+}
+#casestudies_page #mainpage .right{
+    float:right;
+    clear:right;
+    margin-right:2em;
+    margin-left:1em;
+}
+
+#casestudies_page #mainpage .bottom{
+    margin-top:2em;
+}
 
 
 #riskdef {
