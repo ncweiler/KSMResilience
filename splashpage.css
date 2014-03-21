@@ -1,59 +1,71 @@
 #header{
     position:absolute;
-    display:block;
+    display:table;
     background-color:skyblue; /*bolder color*/
-    border: 1px solid #ccc;
+    border: 2px solid #ccc;
     height:6em;
     width:98.5%;
     margin-left:0%;
     margin-right:0%;
-    border-radius:0px 0px 20px 20px;
-    padding-top:5px;
+    border-radius:0px 0px 2em 2em;
     text-align: center;
 }
 
 #title{
-    position:absolute;
-    display:block;
-    width:70%;
-    margin:0% 15% 0% 15%;
+    /*position:absolute;*/
+    display:table-cell;
+    width:60%;
+    margin:0px auto;
     font-size:3em; /*make sure this is bold*/
     color:white;
     font-weight:bold;
-    font-family:Garamond, sansserif;
+    font-family:sans-serif;
+    vertical-align:middle;
 }
 
 #header>.button{
-    position:absolute;
-    display:block;
-
-    height:90%;
+    display:table-cell;
+    text-align: center;
+    vertical-align:middle;
     width:10%;
-
-    text-align:center;
 }
 
-#header>.left.button{margin:0% 0% 0% 2%;}
-#header>.right.button{margin:0% 0% 0% 88%;}
+#header>.left.button{
+    
+    /*margin:0% 0% 0% 2%;*/
+}
+
+#header>.right.button{
+    /*margin:0% 0% 0% 88%;*/
+}
 
 #header>.button img{
-    position:static;
     display:block;
-    height:80%;
-    width:80%;
-}
-
-#header>.button p{
-    z-index=1;
-    display:block;
-    position:static;
-    margin:0% 0% 0% 0%;
-    width:100%;
-    text-align: center;
+    margin:auto;
+    height:75%;
+    width:75%;
 }
 
 #header>.button a{
     text-decoration: none;
+}
+
+#header .section_thumb{
+    position:absolute;
+    display:table-cell;
+    width:10%;
+    height:6em;
+    overflow: hidden;
+}
+
+#header .section_thumb img{
+    height:200%;
+    width:200%;
+    margin:-30px 0px 0px -65px;
+}
+
+#header .section_thumb #networks_thumb{
+    margin:-50px 0px 0px -65px;
 }
 
 #header>.button a:hover{}
@@ -62,7 +74,7 @@
     position:absolute;
     width:98.5%;
     height:60em;
-    margin-top: 6em;
+    margin-top: 6.5em;
     display:inline-block;
     background-color:white; /*make gradient*/
     clear:both;
@@ -127,11 +139,11 @@
     height:auto;
     padding:.5em;
     margin-left: 8%;
-    margin-top: 60%;
+    margin-top: 75%;
 
     /*captions below images*/
     color: white;
-    font: bold 24px Helvetica, Sans-Serif;
+    font: bold 24px Sans-Serif;
     letter-spacing: 0em;
 
     background: rgb(0, 0, 0); /* fallback color */
@@ -275,6 +287,7 @@ font-weight: bold;
     margin-top:72%;
     border:0.3em solid skyblue;
     text-align:center;
+    font-family:sans-serif;
 }
 
 #livingwfire {
@@ -289,6 +302,7 @@ font-weight: bold;
     height:520px;
     text-align:center;
     font-size: 18px;
+    font-family:sans-serif;
 }
 
 .tooltiptext img {
