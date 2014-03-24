@@ -15,7 +15,6 @@
     /*position:absolute;*/
     display:table-cell;
     width:60%;
-    margin:0px auto;
     font-size:3em; /*make sure this is bold*/
     color:white;
     font-weight:bold;
@@ -56,6 +55,7 @@
     width:10%;
     height:6em;
     overflow: hidden;
+    border-radius:1em;
 }
 
 #header .section_thumb img{
@@ -111,6 +111,7 @@
     position:absolute;
     width:15em;
     height:15em;
+    outline:0.75em solid #FFFC7F;
     display:block;
     text-align:center;
     clear:both;
@@ -213,24 +214,103 @@
 }
 
 
-#riskdef {
+.risk_tn{
+    position:relative;
+    float:right;
+    width:25%;
+    height:25%;
+    outline:0.5em solid #FFFC7F;
+    display:block;
+    text-align:center;
+    clear:right;
+    border-bottom:2px solid black;
+    border-right:2px solid black;
+}
+
+.risk_tn img{
+    position:absolute;
+    display:block;
+    width:100%;
+    height:100%;
+}
+
+.risk_tn img:hover{
+    opacity:.5
+}
+
+.risk_tn p{
     display:block;
     position:absolute;
-    width:80%;
+    width:90%;
     height:auto;
-    margin-left: 9%;
-    text-align: center;
-    margin-top: 2em;
-    padding: .5em;
+    padding:.5em;
+    left:2.5%;
+    top:65%;
 
+    /*captions below images*/
+    color: white;
+    font: bold 20px Sans-Serif;
+    letter-spacing: 0em;
+
+    background: rgb(0, 0, 0); /* fallback color */
+    background: rgba(0, 0, 0, 0.3); /* transparency */
+
+}
+
+#riskdef {
+    display:block;
+    position:relative;
+    width:50%;
+    height:auto;
+    float:left;
+    text-align: center;
+    margin-top: 1%;
+    left: 5%;
+    font-family:sans-serif;
+    color:white;
     border:solid gray .2em;
 
     background: rgb(0, 0, 0); /* fallback color */
     background: rgba(0, 0, 0, 0.3); /* transparency */
 }
 
+.qc_frame {
+    display:block;
+    position:relative;
+    float:left;
+    clear:left;
+    border:solid gray .2em;
+    overflow:hidden;
+    top:-5%;
+    left:5%;
+    width:50%;
+    height:40%;
+}
+
+.qc_frame iframe {
+    position:absolute;
+    height:100%;
+    width:100%;
+}
+
+#accenture {
+    top:2%;
+    right:5%;
+}
+
+
+#NOAA {
+    top:6.25%;
+    right:5%;
+}
+
+#UNGRiD {
+    top:10.5%;
+    right:5%;
+}
+
 #riskdef h3{
-font-family: Helvetica;
+font-family: sans-serif;
 }
 
 #riskdef span{
@@ -328,7 +408,7 @@ font-weight: bold;
 .tooltiptext {
     display: none;
     width:340px;
-    height:520px;
+    height:380px;
     text-align:center;
     font-size: 18px;
     font-family:sans-serif;
