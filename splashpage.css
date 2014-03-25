@@ -613,3 +613,94 @@ font-weight: bold;
     width: 200px;
 }
 
+#CR_page #header{
+    position:fixed;
+    z-index:1;
+    /*to get rid of top space*/
+    /*margin-top:-.5em;*/
+}
+
+#CR_page .cs_pane{
+    width:100%;
+    float:left;
+    position:relative;
+}
+
+#CR_page .cs_pane img{
+    width: 100%;
+    z-index=-1;
+}
+
+#CR_page .textbox{
+    position:absolute;
+    width:60%;
+    background-color:black;
+    opacity:0.6; /* transparency */
+    filter:alpha(opacity=60); /* IE transparency */
+}
+
+#CR_page .cs_pane p{
+    font-size:1.2em;
+    margin:0em;
+    padding:.5em;
+    color:white;
+    font-weight:bold;
+}
+
+#CR_page #rains>:first-child{
+    font-size:1.5em;
+    font-weight:bold;
+    text-align:left;
+    left:0%;
+    top:0%;
+    border-radius:0em 2em 2em 0em;
+}
+
+#CR_page #rains>:nth-child(2){
+    text-align:right;
+    top:25%;
+    right:0%;
+    border-radius:2em 0em 0em 2em;
+}
+
+#CR_page #rains>:nth-child(3){
+    text-align:left;
+    left:0%;
+    top:50%;
+    border-radius:0em 2em 2em 0em;
+}
+
+#CR_page #rains>:nth-child(4){
+    text-align:right;
+    right:0%;
+    top:75%;
+    border-radius:2em 0em 0em 2em;
+}
+
+
+#CR_page #flood>:first-child{
+    font-size:1.5em;
+    font-weight:bold;
+    text-align:left;
+    left:0%;
+    top:0%;
+    border-radius:0em 2em 2em 0em;
+}
+
+#CR_page #flood>:nth-child(2){
+    text-align:right;
+    top:20%;
+    right:0%;
+    border-radius:2em 0em 0em 2em;
+}
+
+#CR_page #flood>:nth-child(3){
+    text-align:left;
+    left:0%;
+    top:55%;
+    border-radius:0em 2em 2em 0em;
+}
+
+#CR_page video{
+    width:100%;
+}
