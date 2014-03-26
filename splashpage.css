@@ -647,58 +647,131 @@ font-weight: bold;
     font-weight:bold;
 }
 
-#CR_page #rains>:first-child{
+/*style for first block of text for each panel*/
+#CR_page .cs_pane>:first-child p{
     font-size:1.5em;
     font-weight:bold;
+}
+
+#CR_page #rains>:first-child{
+    /*set L/R justify*/
     text-align:left;
     left:0%;
-    top:0%;
     border-radius:0em 2em 2em 0em;
+
+    /*set vertical position*/
+    top:0%;
 }
 
 #CR_page #rains>:nth-child(2){
+    /*set L/R justify*/
     text-align:right;
-    top:25%;
     right:0%;
     border-radius:2em 0em 0em 2em;
+
+    /*set vertical position*/
+    top:25%;
 }
 
 #CR_page #rains>:nth-child(3){
+    /*set L/R justify*/
     text-align:left;
     left:0%;
-    top:50%;
     border-radius:0em 2em 2em 0em;
+
+    /*set vertical position*/
+    top:50%;
 }
 
 #CR_page #rains>:nth-child(4){
+    /*set L/R justify*/
     text-align:right;
     right:0%;
-    top:75%;
     border-radius:2em 0em 0em 2em;
+
+    /*set vertical position*/
+    top:75%;
 }
 
 
 #CR_page #flood>:first-child{
-    font-size:1.5em;
-    font-weight:bold;
+    /*set L/R justify*/
     text-align:left;
     left:0%;
-    top:0%;
     border-radius:0em 2em 2em 0em;
+
+    /*set vertical position*/
+    top:0%;
 }
 
 #CR_page #flood>:nth-child(2){
+    /*set L/R justify*/
     text-align:right;
-    top:20%;
     right:0%;
     border-radius:2em 0em 0em 2em;
+
+    /*set vertical position*/
+    top:30%;
 }
 
 #CR_page #flood>:nth-child(3){
+    /*set L/R justify*/
     text-align:left;
     left:0%;
-    top:55%;
     border-radius:0em 2em 2em 0em;
+
+    /*set vertical position*/
+    top:75%;
+}
+
+#CR_page #volunteer1>:first-child{
+    /*set L/R justify*/
+    text-align:right;
+    right:0%;
+    border-radius:2em 0em 0em 2em;
+
+    /*set vertical position*/
+    top:0%;
+}
+
+#CR_page #volunteer1>:nth-child(2){
+    /*set L/R justify*/
+    text-align:left;
+    left:0%;
+    border-radius:0em 2em 2em 0em;
+
+    /*set vertical position*/
+    top:40%;
+}
+
+#CR_page #volunteer1>:nth-child(3){
+    /*set L/R justify*/
+    text-align:right;
+    right:0%;
+    border-radius:2em 0em 0em 2em;
+
+    /*set vertical position*/
+    top:70%;
+}
+
+#CR_page #volunteer2>:first-child{
+    /*set L/R justify*/
+    text-align:left;
+    left:0%;
+    border-radius:0em 2em 2em 0em;
+
+    /*set vertical position*/
+    top:0%;
+}
+
+#CR_page #volunteer2>:nth-child(2){
+    /*set L/R justify*/
+    text-align:right;
+    right:0%;
+    border-radius:2em 0em 0em 2em;
+
+    /*set vertical position*/
+    top:75%;
 }
 
 #CR_page video{
