@@ -777,3 +777,43 @@ font-weight: bold;
 #CR_page video{
     width:100%;
 }
+
+#CR_page #nuclear>:first-child{
+    /*set L/R justify*/
+    text-align:right;
+    right:0%;
+    border-radius:2em 0em 0em 2em;
+
+    /*set vertical position*/
+    top:0%;
+}
+
+#CR_page #nuclear>:nth-child(2){
+    /*set L/R justify*/
+    text-align:left;
+    left:0%;
+    border-radius:0em 2em 2em 0em;
+
+    /*set vertical position*/
+    top:30%;
+}
+
+#CR_page #nuclear>:nth-child(3){
+    /*set L/R justify*/
+    text-align:right;
+    right:0%;
+    border-radius:2em 0em 0em 2em;
+
+    /*set vertical position*/
+    top:50%;
+}
+
+#CR_page #nuclear>:nth-child(4){
+    /*set L/R justify*/
+    text-align:left;
+    right:0%;
+    border-radius:0em 2em 2em 0em;
+
+    /*set vertical position*/
+    top:70%;
+}
