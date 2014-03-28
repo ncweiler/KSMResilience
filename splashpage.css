@@ -627,7 +627,7 @@ font-weight: bold;
 
 /*formatting for case study pages*/
 
-.CS_page{
+html.CS_page{
     /* This restricts the body of each page to the resolution of the Idea Lab monitors*/
     position:relative;
     min-width:1366px;
@@ -635,7 +635,9 @@ font-weight: bold;
     width:1366px;
     height:768px;
     max-height:768px;
-    overflow-y:visible
+    overflow-y:visible;
+    border:1px solid black;
+    z-index=2;
 }
 
 
@@ -647,14 +649,35 @@ font-weight: bold;
 }
 
 #CR_page .cs_pane{
-    width:100%;
-    float:left;
+    width:73%;
+    margin-left:13.5%;
+    margin-right:13.5%;
     position:relative;
+    text-align:center;
+    clear:both;
 }
 
 #CR_page .cs_pane img{
     width: 100%;
     z-index=-1;
+}
+
+#CR_page .left{
+    margin-left:auto;
+
+    /*set L/R justify*/
+    text-align:left;
+    left:0%;
+    border-radius:0em 2em 2em 0em;
+}
+
+#CR_page .right{
+    margin-left:auto;
+
+    /*set L/R justify*/
+    text-align:right;
+    right:0%;
+    border-radius:2em 0em 0em 2em;
 }
 
 #CR_page .textbox{
@@ -680,122 +703,65 @@ font-weight: bold;
 }
 
 #CR_page #rains>:first-child{
-    /*set L/R justify*/
-    text-align:left;
-    left:0%;
-    border-radius:0em 2em 2em 0em;
 
     /*set vertical position*/
     top:0%;
 }
 
 #CR_page #rains>:nth-child(2){
-    /*set L/R justify*/
-    text-align:right;
-    right:0%;
-    border-radius:2em 0em 0em 2em;
 
     /*set vertical position*/
     top:25%;
 }
 
 #CR_page #rains>:nth-child(3){
-    /*set L/R justify*/
-    text-align:left;
-    left:0%;
-    border-radius:0em 2em 2em 0em;
 
     /*set vertical position*/
     top:50%;
 }
 
 #CR_page #rains>:nth-child(4){
-    /*set L/R justify*/
-    text-align:right;
-    right:0%;
-    border-radius:2em 0em 0em 2em;
-
     /*set vertical position*/
     top:75%;
 }
 
 
 #CR_page #flood>:first-child{
-    /*set L/R justify*/
-    text-align:left;
-    left:0%;
-    border-radius:0em 2em 2em 0em;
-
     /*set vertical position*/
     top:0%;
 }
 
 #CR_page #flood>:nth-child(2){
-    /*set L/R justify*/
-    text-align:right;
-    right:0%;
-    border-radius:2em 0em 0em 2em;
-
     /*set vertical position*/
     top:30%;
 }
 
 #CR_page #flood>:nth-child(3){
-    /*set L/R justify*/
-    text-align:left;
-    left:0%;
-    border-radius:0em 2em 2em 0em;
-
     /*set vertical position*/
     top:75%;
 }
 
 #CR_page #volunteer1>:first-child{
-    /*set L/R justify*/
-    text-align:right;
-    right:0%;
-    border-radius:2em 0em 0em 2em;
-
     /*set vertical position*/
     top:0%;
 }
 
 #CR_page #volunteer1>:nth-child(2){
-    /*set L/R justify*/
-    text-align:left;
-    left:0%;
-    border-radius:0em 2em 2em 0em;
-
     /*set vertical position*/
     top:40%;
 }
 
 #CR_page #volunteer1>:nth-child(3){
-    /*set L/R justify*/
-    text-align:right;
-    right:0%;
-    border-radius:2em 0em 0em 2em;
-
     /*set vertical position*/
     top:70%;
 }
 
 #CR_page #volunteer2>:first-child{
-    /*set L/R justify*/
-    text-align:left;
-    left:0%;
-    border-radius:0em 2em 2em 0em;
-
     /*set vertical position*/
     top:0%;
 }
 
 #CR_page #volunteer2>:nth-child(2){
-    /*set L/R justify*/
-    text-align:right;
-    right:0%;
-    border-radius:2em 0em 0em 2em;
-
     /*set vertical position*/
     top:75%;
 }
@@ -805,11 +771,6 @@ font-weight: bold;
 }
 
 #CR_page #nuclear>:first-child{
-    /*set L/R justify*/
-    text-align:right;
-    right:0%;
-    border-radius:2em 0em 0em 2em;
-
     /*set vertical position*/
     top:0%;
 
@@ -817,10 +778,6 @@ font-weight: bold;
 }
 
 #CR_page #nuclear>:nth-child(2){
-    /*set L/R justify*/
-    text-align:left;
-    left:0%;
-    border-radius:0em 2em 2em 0em;
 
     /*set vertical position*/
     top:30%;
@@ -829,10 +786,6 @@ font-weight: bold;
 }
 
 #CR_page #nuclear>:nth-child(3){
-    /*set L/R justify*/
-    text-align:right;
-    right:0%;
-    border-radius:2em 0em 0em 2em;
 
     /*set vertical position*/
     top:50%;
@@ -841,10 +794,6 @@ font-weight: bold;
 }
 
 #CR_page #nuclear>:nth-child(4){
-    /*set L/R justify*/
-    text-align:left;
-    left:0%;
-    border-radius:0em 2em 2em 0em;
 
     /*set vertical position*/
     top:80%;
