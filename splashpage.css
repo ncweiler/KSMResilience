@@ -624,6 +624,21 @@ font-weight: bold;
     width: 200px;
 }
 
+
+/*formatting for case study pages*/
+
+.CS_page{
+    /* This restricts the body of each page to the resolution of the Idea Lab monitors*/
+    position:relative;
+    min-width:1366px;
+    min-height:768px;
+    width:1366px;
+    height:768px;
+    max-height:768px;
+    overflow-y:visible
+}
+
+
 #CR_page #header{
     position:fixed;
     z-index:1;
