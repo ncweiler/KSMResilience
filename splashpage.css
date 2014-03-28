@@ -7,6 +7,7 @@ html, body{
     height:768px;
     max-height:768px;
     overflow-y: hidden;
+    margin:0px;
 }
 
 #header{
@@ -850,4 +851,14 @@ font-weight: bold;
     top:80%;
 
     width:45%;
+}
+
+#florida_tn{
+    display:block;
+    margin-left:3em;
+}
+
+#katrina_tn{
+    display:block;
+   
 }
