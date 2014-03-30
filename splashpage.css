@@ -6,8 +6,9 @@ html, body{
     width:1366px;
     height:768px;
     max-height:768px;
-    overflow-y: hidden;
+    overflow-y: visible;
     margin:0px;
+    border:1px solid black;
 }
 
 #header{
@@ -745,22 +746,72 @@ html.CS_page .cs_pane>:first-child p{
 
 #CR_page #nuclear>:nth-child(4){top:80%;}
 
+#CR_page #andrew>:first-child{top:0%;}
+
+#CR_page #andrew>:nth-child(2){top:50%;}
+
+#CR_page #andrew>:nth-child(3){top:75%;}
+
+#CR_page #roof>:first-child{top:0%;}
+
+#CR_page #roof>:nth-child(2){top:20%;}
+
+#CR_page #roof>:nth-child(3){top:50%;}
+
+#CR_page #roof>:nth-child(4){top:80%;}
+
+#CR_page #charlie>:first-child{top:0%;}
+
+#CR_page #charlie>:nth-child(2){top:30%;}
+
+#CR_page #charlie>:nth-child(3){top:60%;}
+
+#CR_page #charlie>:nth-child(4){top:80%;}
+
 #florida_tn, #katrina_tn{
     position:absolute;
-    display:block;
-}
-
-#florida_tn img, #katrina_tn img{
     width:25em;
     height:25em;
+    outline:0.75em solid #FFFC7F;
+    display:block;
+    text-align:center;
+    clear:both;
     border-bottom:2px solid black;
     border-right:2px solid black;
 }
 
+#florida_tn img, #katrina_tn img{
+    display:block;
+    position:absolute;
+    width:100%;
+    height:100%;
+    border-bottom:2px solid black;
+    border-right:2px solid black;
+}
+
+#florida_tn p, #katrina_tn p{
+    display:block;
+    position:absolute;
+    width:75%;
+    height:auto;
+    padding:.5em;
+    left:10%;
+    top:70%;
+
+    /*captions below images*/
+    color: white;
+    font: bold 24px Sans-Serif;
+    letter-spacing: 0em;
+    background: rgb(0, 0, 0); /* fallback color */
+    background: rgba(0, 0, 0, 0.3); /* transparency */
+}
+
 #florida_tn {
-    margin-left: 10%;   
+    top:10%;
+    left: 10%;   
 }
 
 #katrina_tn {
-    margin-right: 10%;
+    top:10%;
+    right: 10%;
 }
