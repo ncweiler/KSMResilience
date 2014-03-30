@@ -93,28 +93,28 @@ html, body{
 }
 
 
-#mainpage .top{
+#mainpage .thumbnail.top{
     margin-top:2em;
 }
 
-#mainpage .bottom{
+#mainpage .thumbnail.bottom{
     margin-top:35em;
 }
 
-#mainpage .left{
+#mainpage .thumbnail.left{
     margin-left:10%;
 }
 
-#mainpage .right{
+#mainpage .thumbnail.right{
     margin-left:68%;
 }
 
-#mainpage .horizctr{
+#mainpage .thumbnail.horizctr{
     margin-left:38%;
     margin-right:38%;
 }
 
-#mainpage .vertctr{
+#mainpage .thumbnail.vertctr{
     margin-top:18.5em;
 }
 
@@ -641,14 +641,14 @@ html.CS_page{
 }
 
 
-#CR_page #header{
+html.CS_page #header{
     position:fixed;
     z-index:1;
     /*to get rid of top space*/
     /*margin-top:-.5em;*/
 }
 
-#CR_page .cs_pane{
+html.CS_page .cs_pane{
     width:73%;
     margin-left:13.5%;
     margin-right:13.5%;
@@ -657,12 +657,12 @@ html.CS_page{
     clear:both;
 }
 
-#CR_page .cs_pane img, video{
+html.CS_page .cs_pane img, video{
     width: 100%;
     z-index=-1;
 }
 
-#CR_page .left{
+html.CS_page .left{
     margin-left:auto;
 
     /*set L/R justify*/
@@ -671,7 +671,7 @@ html.CS_page{
     border-radius:0em 2em 2em 0em;
 }
 
-#CR_page .right{
+html.CS_page .right{
     margin-left:auto;
 
     /*set L/R justify*/
@@ -680,7 +680,7 @@ html.CS_page{
     border-radius:2em 0em 0em 2em;
 }
 
-#CR_page .textbox{
+html.CS_page .textbox{
     position:absolute;
     width:45%;
     background-color:black;
@@ -689,7 +689,7 @@ html.CS_page{
     line-height:1.5;
 }
 
-#CR_page .cs_pane p{
+html.CS_page .cs_pane p{
     font-size:1.2em;
     margin:0em;
     padding:.5em;
@@ -698,7 +698,7 @@ html.CS_page{
 }
 
 /*style for first block of text for each panel*/
-#CR_page .cs_pane>:first-child p{
+html.CS_page .cs_pane>:first-child p{
     font-size:1.5em;
     font-weight:bold;
 }
