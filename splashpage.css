@@ -657,12 +657,12 @@ html.CS_page .cs_pane{
     clear:both;
 }
 
-html.CS_page .cs_pane img, video{
+html.CS_page .cs_pane img, video, object{
     width: 100%;
     z-index=-1;
 }
 
-html.CS_page .left{
+html.CS_page .textbox.left{
     margin-left:auto;
 
     /*set L/R justify*/
@@ -671,7 +671,7 @@ html.CS_page .left{
     border-radius:0em 2em 2em 0em;
 }
 
-html.CS_page .right{
+html.CS_page .textbox.right{
     margin-left:auto;
 
     /*set L/R justify*/
@@ -703,8 +703,13 @@ html.CS_page .cs_pane>:first-child p{
     font-weight:bold;
 }
 
+/*page-specific formatting*/
+#EQ_page #SF1906 object{
+    height:40em;
+}
 
-/*set textbox positions*/
+
+/*set textbox positions for each page*/
 #CR_page #rains>:first-child{top:0%;}
 
 #CR_page #rains>:nth-child(2){top:20%;}
