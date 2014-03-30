@@ -7,6 +7,7 @@ html, body{
     height:768px;
     max-height:768px;
     overflow-y: hidden;
+    margin:0px;
 }
 
 #header{
@@ -223,7 +224,6 @@ html, body{
 #casestudies_page #mainpage .bottom{
     margin-top:2em;
 }
-
 
 .risk_tn{
     position:relative;
@@ -739,3 +739,23 @@ html.CS_page{
 #CR_page #nuclear>:nth-child(3){top:50%;}
 
 #CR_page #nuclear>:nth-child(4){top:80%;}
+
+#florida_tn, #katrina_tn{
+    position:absolute;
+    display:block;
+}
+
+#florida_tn img, #katrina_tn img{
+    width:25em;
+    height:25em;
+    border-bottom:2px solid black;
+    border-right:2px solid black;
+}
+
+#florida_tn {
+    margin-left: 10%;   
+}
+
+#katrina_tn {
+    margin-right: 10%;
+}
