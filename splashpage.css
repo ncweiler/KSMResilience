@@ -746,6 +746,8 @@ html.CS_page .cs_pane>:first-child p{
 
 #CR_page #nuclear>:nth-child(4){top:80%;}
 
+/* Textbox formatting for Case Study 2a */
+
 #CR_page #andrew>:first-child{top:0%;}
 
 #CR_page #andrew>:nth-child(2){top:50%;}
@@ -768,6 +770,8 @@ html.CS_page .cs_pane>:first-child p{
 
 #CR_page #charlie>:nth-child(4){top:80%;}
 
+/*Textbox formatting for case study 2b*/
+
 #CR_page #katrina>:first-child{top:0%;}
 
 #CR_page #katrina>:nth-child(2){top:40%;}
@@ -789,6 +793,32 @@ html.CS_page .cs_pane>:first-child p{
 #CR_page #recovery2>:nth-child(3){top:50%;}
 
 #CR_page #recovery2>:nth-child(4){top:65%;font-size:1.5em;}
+
+/*Textbox formatting for case study 4*/
+
+#CR_page #sandypane>:first-child{top:0%;font-size:0.8em;}
+
+#CR_page #sandypane>:nth-child(2){top:20%;}
+
+#CR_page #sandypane>:nth-child(3){top:50%;}
+
+#CR_page #sandypane>:nth-child(4){top:68.5%;font-size:1.5em;}
+
+#CR_page #palisadebay>:nth-child(1){font-size:0.8em; width:50%;}
+
+#CR_page #palisadebay>:nth-child(2){width:50%; top:85%;}
+
+#greeninf{
+    background-color:black;
+    opacity:0.7; /* transparency */
+    filter:alpha(opacity=70); /* IE transparency */
+    line-height:1.5;
+    font-size:1.2em;
+    margin:0em;
+    padding:.5em;
+    color:white;
+    font-weight:bold;
+}
 
 #florida_tn, #katrina_tn{
     position:absolute;
