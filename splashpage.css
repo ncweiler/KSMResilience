@@ -768,6 +768,28 @@ html.CS_page .cs_pane>:first-child p{
 
 #CR_page #charlie>:nth-child(4){top:80%;}
 
+#CR_page #katrina>:first-child{top:0%;}
+
+#CR_page #katrina>:nth-child(2){top:40%;}
+
+#CR_page #katrina>:nth-child(3){top:75%;}
+
+#CR_page #recovery1>:first-child{top:0%;}
+
+#CR_page #recovery1>:nth-child(2){top:20%;}
+
+#CR_page #recovery1>:nth-child(3){top:60%;}
+
+#CR_page #recovery1>:nth-child(4){top:80%;}
+
+#CR_page #recovery2>:first-child{top:0%;font-size:0.8em;}
+
+#CR_page #recovery2>:nth-child(2){top:20%;}
+
+#CR_page #recovery2>:nth-child(3){top:50%;}
+
+#CR_page #recovery2>:nth-child(4){top:65%;font-size:1.5em;}
+
 #florida_tn, #katrina_tn{
     position:absolute;
     width:25em;
