@@ -1,0 +1,906 @@
+html, body{
+    /* This restricts the body of each page to the resolution of the Idea Lab monitors*/
+    position:relative;
+    min-width:1366px;
+    min-height:768px;
+    width:1366px;
+    height:768px;
+    max-height:768px;
+    overflow-y: visible;
+    margin:0px;
+    border:1px solid black;
+}
+
+#header{
+    position:absolute;
+    display:table;
+    background-color:skyblue; /*bolder color*/
+    border: 2px solid #ccc;
+    height:6em;
+    width:98.5%;
+    margin-left:0%;
+    margin-right:0%;
+    border-radius:0px 0px 2em 2em;
+    text-align: center;
+}
+
+#title{
+    /*position:absolute;*/
+    display:table-cell;
+    width:60%;
+    font-size:3em; /*make sure this is bold*/
+    color:white;
+    font-weight:bold;
+    font-family:sans-serif;
+    vertical-align:middle;
+}
+
+#header>.button{
+    display:table-cell;
+    text-align: center;
+    vertical-align:middle;
+    width:10%;
+}
+
+#header>.left.button{
+    
+    /*margin:0% 0% 0% 2%;*/
+}
+
+#header>.right.button{
+    /*margin:0% 0% 0% 88%;*/
+}
+
+#header>.button img{
+    display:block;
+    margin:auto;
+    height:75%;
+    width:75%;
+}
+
+#header>.button a{
+    text-decoration: none;
+}
+
+#header .section_thumb{
+    position:absolute;
+    display:table-cell;
+    width:10%;
+    height:6em;
+    overflow: hidden;
+    border-radius:1em;
+}
+
+#header .section_thumb img{
+    height:200%;
+    width:200%;
+    margin:-30px 0px 0px -65px;
+}
+
+#header .section_thumb #networks_thumb{
+    margin:-50px 0px 0px -65px;
+}
+
+#header>.button a:hover{}
+
+#mainpage{
+    position:absolute;
+    width:98.5%;
+    height:60em;
+    margin-top: 6.5em;
+    display:inline-block;
+    background-color:white; /*make gradient*/
+    clear:both;
+}
+
+
+#mainpage .thumbnail.top{
+    margin-top:2em;
+}
+
+#mainpage .thumbnail.bottom{
+    margin-top:35em;
+}
+
+#mainpage .thumbnail.left{
+    margin-left:10%;
+}
+
+#mainpage .thumbnail.right{
+    margin-left:68%;
+}
+
+#mainpage .thumbnail.horizctr{
+    margin-left:38%;
+    margin-right:38%;
+}
+
+#mainpage .thumbnail.vertctr{
+    margin-top:18.5em;
+}
+
+
+.thumbnail{
+    position:absolute;
+    width:15em;
+    height:15em;
+    outline:0.75em solid #FFFC7F;
+    display:block;
+    text-align:center;
+    clear:both;
+    border-bottom:2px solid black;
+    border-right:2px solid black;
+}
+
+.thumbnail img{
+    position:absolute;
+    display:block;
+    width:100%;
+    height:100%;
+    /*bezel borders: make them pop*/
+
+}
+
+.thumbnail img:hover{
+    opacity:.5
+}
+
+
+.thumbnail p{
+    display:block;
+    position:absolute;
+    width:75%;
+    height:auto;
+    padding:.5em;
+    margin-left: 8%;
+    margin-top: 75%;
+
+    /*captions below images*/
+    color: white;
+    font: bold 24px Sans-Serif;
+    letter-spacing: 0em;
+
+    background: rgb(0, 0, 0); /* fallback color */
+    background: rgba(0, 0, 0, 0.3); /* transparency */
+
+}
+
+#splashpage .thumbnail{
+    position:relative;
+    display:inline;
+    /*text-align:center;*/
+    width:25em;
+    height:25em;
+    border-bottom:2px solid black;
+    border-right:2px solid black;
+}
+
+#splashpage #mainpage .top{
+    margin-top:2em;
+}
+
+#splashpage #mainpage .left{
+    float:left;
+    clear:left;
+    margin-left:2em;
+    margin-right:1em;
+}
+#splashpage #mainpage .right{
+    float:right;
+    clear:right;
+    margin-right:2em;
+    margin-left:1em;
+}
+#splashpage #mainpage .bottom{
+    margin-top:2em;
+}
+
+#casestudies_page .thumbnail{
+    position:relative;
+    display:inline;
+    /*text-align:center;*/
+    width:25em;
+    height:25em;
+    border-bottom:2px solid black;
+    border-right:2px solid black;
+}
+
+#casestudies_page #mainpage .top{
+    margin-top:2em;
+}
+
+#casestudies_page #mainpage .left{
+    float:left;
+    clear:left;
+    margin-left:2em;
+    margin-right:1em;
+}
+#casestudies_page #mainpage .right{
+    float:right;
+    clear:right;
+    margin-right:2em;
+    margin-left:1em;
+}
+
+#casestudies_page #mainpage .bottom{
+    margin-top:2em;
+}
+
+.risk_tn{
+    position:relative;
+    float:right;
+    width:25%;
+    height:25%;
+    outline:0.5em solid #FFFC7F;
+    display:block;
+    text-align:center;
+    clear:right;
+    border-bottom:2px solid black;
+    border-right:2px solid black;
+}
+
+.risk_tn img{
+    position:absolute;
+    display:block;
+    width:100%;
+    height:100%;
+}
+
+.risk_tn img:hover{
+    opacity:.5
+}
+
+.risk_tn p{
+    display:block;
+    position:absolute;
+    width:90%;
+    height:auto;
+    padding:.5em;
+    left:2.5%;
+    top:65%;
+
+    /*captions below images*/
+    color: white;
+    font: bold 20px Sans-Serif;
+    letter-spacing: 0em;
+
+    background: rgb(0, 0, 0); /* fallback color */
+    background: rgba(0, 0, 0, 0.3); /* transparency */
+
+}
+
+#riskdef {
+    display:block;
+    position:relative;
+    width:50%;
+    height:auto;
+    float:left;
+    text-align: center;
+    margin-top: 1%;
+    left: 5%;
+    font-family:sans-serif;
+    color:white;
+    font-size: 18px;
+    border:solid gray .2em;
+
+    background: rgb(0, 0, 0); /* fallback color */
+    background: rgba(0, 0, 0, 0.3); /* transparency */
+}
+
+.qc_frame {
+    display:block;
+    position:relative;
+    float:left;
+    clear:left;
+    border:solid gray .2em;
+    overflow:hidden;
+    top:-5%;
+    left:5%;
+    width:50%;
+    height:40%;
+}
+
+.qc_frame iframe {
+    position:absolute;
+    height:100%;
+    width:100%;
+}
+
+#accenture {
+    top:2%;
+    right:5%;
+}
+
+
+#NOAA {
+    top:6.25%;
+    right:5%;
+}
+
+#UNGRiD {
+    top:10.5%;
+    right:5%;
+}
+
+#riskdef h3{
+font-family: sans-serif;
+}
+
+#riskdef span{
+font-weight: bold;
+}
+
+.planning_tn{
+    position:relative;
+    top:2.5%;
+    float:left;
+    width:25%;
+    height:25%;
+    outline:0.5em solid #FFFC7F;
+    display:block;
+    text-align:center;
+    clear:both;
+    border-bottom:2px solid black;
+    border-right:2px solid black;
+}
+
+.planning_tn img{
+    position:absolute;
+    display:block;
+    width:100%;
+    height:100%;
+}
+
+.planning_tn img:hover{
+    opacity:.5
+}
+
+.planning_tn p{
+    display:block;
+    position:absolute;
+    width:90%;
+    height:auto;
+    padding:.5em;
+    left:2.5%;
+    top:65%;
+
+    /*captions below images*/
+    color: white;
+    font: bold 20px Sans-Serif;
+    letter-spacing: 0em;
+
+    background: rgb(0, 0, 0); /* fallback color */
+    background: rgba(0, 0, 0, 0.3); /* transparency */
+
+}
+
+.tn_caption {
+    display:block;
+    position:relative;
+    display:block;
+    float:right;
+    top:2.5%;
+    width:60%;
+    height:22.5%;
+    border: 2px solid black;
+    border-radius: 2em;
+    color:white;
+    background:gray;
+    font-size: 20px;
+    font-family:sans-serif;
+    text-align:center;
+}
+
+#firegame{
+    left:5%;
+}
+
+
+#firecaption{
+    right:5%;
+}
+
+#disastercaption{
+    float:left;
+    clear:left;
+    left:5%;
+    top:5%;
+}
+
+#disastergame{
+    float:right;
+    clear:right;
+    top:4%;
+    right:5%;
+}
+
+#homeprep {
+    top:5%;
+    left:5%;   
+}
+
+#homecaption {
+    float:right;
+    clear:right;
+    right:5%;  
+    top:7.5%;
+}
+
+.networks_tn{
+    position:relative;
+    top:2.5%;
+    float:left;
+    width:25%;
+    height:25%;
+    outline:0.5em solid #FFFC7F;
+    display:block;
+    text-align:center;
+    clear:both;
+    border-bottom:2px solid black;
+    border-right:2px solid black;
+}
+
+.networks_tn img{
+    position:absolute;
+    display:block;
+    width:100%;
+    height:100%;
+}
+
+.networks_tn img:hover{
+    opacity:.5
+}
+
+.networks_tn p{
+    display:block;
+    position:absolute;
+    width:90%;
+    height:auto;
+    padding:.5em;
+    left:2.5%;
+    top:65%;
+
+    /*captions below images*/
+    color: white;
+    font: bold 20px Sans-Serif;
+    letter-spacing: 0em;
+
+    background: rgb(0, 0, 0); /* fallback color */
+    background: rgba(0, 0, 0, 0.3); /* transparency */
+
+}
+
+.tn_caption {
+    display:block;
+    position:relative;
+    display:block;
+    float:right;
+    top:2.5%;
+    width:60%;
+    height:22.5%;
+    border: 2px solid black;
+    border-radius: 2em;
+    color:white;
+    background:gray;
+    font-size: 20px;
+    font-family:sans-serif;
+    text-align:center;
+}
+
+#google{
+    left:5%;
+}
+
+
+#firecaption{
+    right:5%;
+}
+
+#disastercaption{
+    float:left;
+    clear:left;
+    left:5%;
+    top:5%;
+}
+
+#twitter{
+    float:right;
+    clear:right;
+    top:4%;
+    right:5%;
+}
+
+#diagram {
+    top:5%;
+    left:5%;   
+}
+
+#homecaption {
+    float:right;
+    clear:right;
+    right:5%;  
+    top:7.5%;
+}
+
+#mainpage>.qrcode {
+    position:absolute;
+    width:15em;
+    height:15em;
+    display:block;
+    text-align:center;
+    clear:both;
+}
+
+#mainpage>.qrcode img{
+    position:absolute;
+    display:block;
+    width:100%;
+    height:100%;
+}
+
+#mainpage>.qrcode p{
+    display:block;
+    position:absolute;
+    width:75%;
+    height:auto;
+    margin-left: 13%;
+
+    color: black;
+    font: bold 24px Helvetica, Sans-Serif;
+    letter-spacing: 0em;
+
+    /*background: rgb(0, 0, 0); /* fallback color
+    background: rgba(0, 0, 0, 0.3); /* transparency */
+
+}
+
+#mainpage>.qrcode p:nth-child(2){
+    margin-top:-2em;
+
+}
+
+#mainpage>.qrcode p:nth-child(3){
+    margin-top:11em;
+}
+
+.resource_frame {
+    position:absolute;
+    width:97.5%;
+    height:80%;
+    margin-top: 10.5%;
+    margin-left:0.1%;
+    border: 0.3em solid black;
+    display:inline-block;
+    background-color:white;
+    clear:both;
+    overflow:hidden;
+}
+
+.resource_frame iframe {
+    position:absolute;
+    display: block;
+    height:100%;
+    width:100%;
+    overflow:hidden;
+}
+
+#rising_seas_frame {
+    position:absolute;
+    display:block;
+    margin-top:-50px;
+    height:107.5%;
+    width:100%;
+    overflow:hidden;
+}
+
+.caption {
+    position:absolute;
+    width:95%;
+    height:5%;
+    margin:0%;
+    margin-top:72%;
+    border:0.3em solid skyblue;
+    text-align:center;
+    font-family:sans-serif;
+}
+
+#livingwfire {
+    height:67.5%;
+    width:60%;
+    margin-left:20%;
+}
+
+.tooltiptext {
+    display: none;
+    width:340px;
+    height:380px;
+    text-align:center;
+    font-size: 18px;
+    font-family:sans-serif;
+}
+
+.tooltiptext img {
+    margin:10px 10px 10px 10px;
+    height: 200px;
+    width: 200px;
+}
+
+
+/*formatting for case study pages*/
+
+html.CS_page{
+    /* This restricts the body of each page to the resolution of the Idea Lab monitors*/
+    position:relative;
+    min-width:1366px;
+    min-height:768px;
+    width:1366px;
+    height:768px;
+    max-height:768px;
+    overflow-y:visible;
+    border:1px solid black;
+    z-index=2;
+}
+
+
+html.CS_page #header{
+    position:fixed;
+    z-index:1;
+    /*to get rid of top space*/
+    /*margin-top:-.5em;*/
+}
+
+html.CS_page .cs_pane{
+    width:73%;
+    margin-left:13.5%;
+    margin-right:13.5%;
+    position:relative;
+    text-align:center;
+    clear:both;
+}
+
+html.CS_page .cs_pane img, video, object{
+    width: 100%;
+    z-index=-1;
+}
+
+html.CS_page .textbox.left{
+    margin-left:auto;
+
+    /*set L/R justify*/
+    text-align:left;
+    left:0%;
+    border-radius:0em 2em 2em 0em;
+}
+
+html.CS_page .textbox.right{
+    margin-left:auto;
+
+    /*set L/R justify*/
+    text-align:right;
+    right:0%;
+    border-radius:2em 0em 0em 2em;
+}
+
+html.CS_page .textbox{
+    position:absolute;
+    width:45%;
+    background-color:black;
+    opacity:0.7; /* transparency */
+    filter:alpha(opacity=70); /* IE transparency */
+    line-height:1.5;
+}
+
+html.CS_page .cs_pane p{
+    font-size:1.2em;
+    margin:0em;
+    padding:.5em;
+    color:white;
+    font-weight:bold;
+}
+
+/*style for first block of text for each panel*/
+html.CS_page .cs_pane>:first-child p{
+    font-size:1.5em;
+    font-weight:bold;
+}
+
+/*page-specific formatting*/
+#CR_page #blank1{
+    height:8.5em;}
+
+#EQ_page #SF1906 object{
+    height:40em;
+}
+
+#EQ_page #blank1{
+height:8.5em;
+}
+
+#EQ_page #blank2{
+height:8.5em;
+}
+
+#EQ_page #blank3{
+height:8.5em;
+}
+
+#EQ_page #blank4{
+height:8.5em;
+}
+
+/*set textbox positions for each page*/
+
+/*Textbox formatting for case study 3*/
+
+#CR_page #rains>:first-child{top:0%;}
+
+#CR_page #rains>:nth-child(2){top:20%;}
+
+#CR_page #rains>:nth-child(3){top:50%;}
+
+#CR_page #rains>:nth-child(4){top:80%;}
+
+#CR_page #flood>:first-child{top:0%;}
+
+#CR_page #flood>:nth-child(2){top:30%;}
+
+#CR_page #flood>:nth-child(3){top:75%;}
+
+#CR_page #volunteer1>:first-child{top:0%;}
+
+#CR_page #volunteer1>:nth-child(2){top:40%;}
+
+#CR_page #volunteer1>:nth-child(3){top:70%;}
+
+#CR_page #volunteer2>:first-child{top:0%;}
+
+#CR_page #volunteer2>:nth-child(2){top:75%;}
+
+#CR_page #blank1>:first-child{};
+
+#CR_page #nuclear div{width:45%;} /*different textbox width for #nuclear*/
+
+#CR_page #nuclear>:first-child{top:0%;}
+
+#CR_page #nuclear>:nth-child(2){top:30%;}
+
+#CR_page #nuclear>:nth-child(3){top:50%;}
+
+#CR_page #nuclear>:nth-child(4){top:80%;}
+
+
+/* Textbox formatting for Case Study 2a */
+
+#CR_page #andrew>:first-child{top:0%;}
+
+#CR_page #andrew>:nth-child(2){top:50%;}
+
+#CR_page #andrew>:nth-child(3){top:75%;}
+
+#CR_page #roof>:first-child{top:0%;}
+
+#CR_page #roof>:nth-child(2){top:20%;}
+
+#CR_page #roof>:nth-child(3){top:50%;}
+
+#CR_page #roof>:nth-child(4){top:80%;}
+
+#CR_page #charlie>:first-child{top:0%;}
+
+#CR_page #charlie>:nth-child(2){top:30%;}
+
+#CR_page #charlie>:nth-child(3){top:60%;}
+
+#CR_page #charlie>:nth-child(4){top:80%;}
+
+/*Textbox formatting for case study 2b*/
+
+#CR_page #katrina>:first-child{top:0%;}
+
+#CR_page #katrina>:nth-child(2){top:40%;}
+
+#CR_page #katrina>:nth-child(3){top:75%;}
+
+#CR_page #recovery1>:first-child{top:0%;}
+
+#CR_page #recovery1>:nth-child(2){top:20%;}
+
+#CR_page #recovery1>:nth-child(3){top:60%;}
+
+#CR_page #recovery1>:nth-child(4){top:80%;}
+
+#CR_page #recovery2>:first-child{top:0%;font-size:0.8em;}
+
+#CR_page #recovery2>:nth-child(2){top:20%;}
+
+#CR_page #recovery2>:nth-child(3){top:50%;}
+
+#CR_page #recovery2>:nth-child(4){top:65%;font-size:1.5em;}
+
+/*Textbox formatting for case study 3*/
+#EQ_page #SF1906>:first-child{top:5%;}
+
+#EQ_page #SF1906>:nth-child(2){top:75%;}
+
+#EQ_page #blank1>:nth-child(2){top:41%;}
+
+#EQ_page #blank2>:nth-child(2){top:21%;}
+
+#EQ_page #blank3>:nth-child(2){top:21%;}
+
+#EQ_page #blank4>:nth-child(2){top:21%;}
+
+/*Textbox formatting for case study 4*/
+
+#CR_page #sandypane>:first-child{top:0%;font-size:0.8em;}
+
+#CR_page #sandypane>:nth-child(2){top:20%;}
+
+#CR_page #sandypane>:nth-child(3){top:50%;}
+
+#CR_page #sandypane>:nth-child(4){top:68.5%;font-size:1.5em;}
+
+#CR_page #palisadebay>:nth-child(1){font-size:0.8em; width:50%;}
+
+#CR_page #palisadebay>:nth-child(2){width:50%; top:85%;}
+
+#CR_page #prefema>:nth-child(1){width:100%; border-radius:0px; top:85%;}
+
+#greeninf{
+    background-color:black;
+    opacity:0.7; /* transparency */
+    filter:alpha(opacity=70); /* IE transparency */
+    line-height:1.5;
+    font-size:1.2em;
+    padding:.5em;
+    color:white;
+    font-weight:bold;
+}
+
+#florida_tn, #katrina_tn{
+    position:absolute;
+    width:25em;
+    height:25em;
+    outline:0.75em solid #FFFC7F;
+    display:block;
+    text-align:center;
+    clear:both;
+    border-bottom:2px solid black;
+    border-right:2px solid black;
+}
+
+#florida_tn img, #katrina_tn img{
+    display:block;
+    position:absolute;
+    width:100%;
+    height:100%;
+    border-bottom:2px solid black;
+    border-right:2px solid black;
+}
+
+#florida_tn p, #katrina_tn p{
+    display:block;
+    position:absolute;
+    width:75%;
+    height:auto;
+    padding:.5em;
+    left:10%;
+    top:70%;
+
+    /*captions below images*/
+    color: white;
+    font: bold 24px Sans-Serif;
+    letter-spacing: 0em;
+    background: rgb(0, 0, 0); /* fallback color */
+    background: rgba(0, 0, 0, 0.3); /* transparency */
+}
+
+#florida_tn {
+    top:10%;
+    left: 10%;   
+}
+
+#katrina_tn {
+    top:10%;
+    right: 10%;
+}

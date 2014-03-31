@@ -6,8 +6,9 @@ html, body{
     width:1366px;
     height:768px;
     max-height:768px;
-    overflow-y: hidden;
+    overflow-y: visible;
     margin:0px;
+    border:1px solid black;
 }
 
 #header{
@@ -752,8 +753,6 @@ height:8.5em;
 
 #CR_page #volunteer2>:nth-child(2){top:75%;}
 
-#CR_page #blank1>:first-child{};
-
 /*different textbox width for #nuclear*/
 #CR_page #nuclear div{width:45%;}
 
@@ -777,22 +776,125 @@ height:8.5em;
 
 #EQ_page #blank4>:nth-child(2){top:21%;}
 
-#florida_tn, #katrina_tn{
-    position:absolute;
-    display:block;
+/* Textbox formatting for Case Study 2a */
+
+#CR_page #andrew>:first-child{top:0%;}
+
+#CR_page #andrew>:nth-child(2){top:50%;}
+
+#CR_page #andrew>:nth-child(3){top:75%;}
+
+#CR_page #roof>:first-child{top:0%;}
+
+#CR_page #roof>:nth-child(2){top:20%;}
+
+#CR_page #roof>:nth-child(3){top:50%;}
+
+#CR_page #roof>:nth-child(4){top:80%;}
+
+#CR_page #charlie>:first-child{top:0%;}
+
+#CR_page #charlie>:nth-child(2){top:30%;}
+
+#CR_page #charlie>:nth-child(3){top:60%;}
+
+#CR_page #charlie>:nth-child(4){top:80%;}
+
+/*Textbox formatting for case study 2b*/
+
+#CR_page #katrina>:first-child{top:0%;}
+
+#CR_page #katrina>:nth-child(2){top:40%;}
+
+#CR_page #katrina>:nth-child(3){top:75%;}
+
+#CR_page #recovery1>:first-child{top:0%;}
+
+#CR_page #recovery1>:nth-child(2){top:20%;}
+
+#CR_page #recovery1>:nth-child(3){top:60%;}
+
+#CR_page #recovery1>:nth-child(4){top:80%;}
+
+#CR_page #recovery2>:first-child{top:0%;font-size:0.8em;}
+
+#CR_page #recovery2>:nth-child(2){top:20%;}
+
+#CR_page #recovery2>:nth-child(3){top:50%;}
+
+#CR_page #recovery2>:nth-child(4){top:65%;font-size:1.5em;}
+
+/*Textbox formatting for case study 4*/
+
+#CR_page #sandypane>:first-child{top:0%;font-size:0.8em;}
+
+#CR_page #sandypane>:nth-child(2){top:20%;}
+
+#CR_page #sandypane>:nth-child(3){top:50%;}
+
+#CR_page #sandypane>:nth-child(4){top:68.5%;font-size:1.5em;}
+
+#CR_page #palisadebay>:nth-child(1){font-size:0.8em; width:50%;}
+
+#CR_page #palisadebay>:nth-child(2){width:50%; top:85%;}
+
+#CR_page #prefema>:nth-child(1){width:100%; border-radius:0px; top:85%;}
+
+#greeninf{
+    background-color:black;
+    opacity:0.7; /* transparency */
+    filter:alpha(opacity=70); /* IE transparency */
+    line-height:1.5;
+    font-size:1.2em;
+    padding:.5em;
+    color:white;
+    font-weight:bold;
 }
 
-#florida_tn img, #katrina_tn img{
+#florida_tn, #katrina_tn{
+    position:absolute;
     width:25em;
     height:25em;
+    outline:0.75em solid #FFFC7F;
+    display:block;
+    text-align:center;
+    clear:both;
     border-bottom:2px solid black;
     border-right:2px solid black;
 }
 
+#florida_tn img, #katrina_tn img{
+    display:block;
+    position:absolute;
+    width:100%;
+    height:100%;
+    border-bottom:2px solid black;
+    border-right:2px solid black;
+}
+
+#florida_tn p, #katrina_tn p{
+    display:block;
+    position:absolute;
+    width:75%;
+    height:auto;
+    padding:.5em;
+    left:10%;
+    top:70%;
+
+    /*captions below images*/
+    color: white;
+    font: bold 24px Sans-Serif;
+    letter-spacing: 0em;
+    background: rgb(0, 0, 0); /* fallback color */
+    background: rgba(0, 0, 0, 0.3); /* transparency */
+}
+
 #florida_tn {
-    margin-left: 10%;   
+    top:10%;
+    left: 10%;   
 }
 
 #katrina_tn {
-    margin-right: 10%;
+    top:10%;
+    right: 10%;
 }
