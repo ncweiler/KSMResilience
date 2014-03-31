@@ -704,6 +704,9 @@ html.CS_page .cs_pane>:first-child p{
 }
 
 /*page-specific formatting*/
+#CR_page #blank1{
+    height:8.5em;}
+
 #EQ_page #SF1906 object{
     height:40em;
 }
@@ -748,6 +751,8 @@ height:8.5em;
 #CR_page #volunteer2>:first-child{top:0%;}
 
 #CR_page #volunteer2>:nth-child(2){top:75%;}
+
+#CR_page #blank1>:first-child{};
 
 /*different textbox width for #nuclear*/
 #CR_page #nuclear div{width:45%;}
