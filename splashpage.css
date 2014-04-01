@@ -609,6 +609,17 @@ font-family: sans-serif;
     padding:0px;
 }
 
+#unisdr_cap{
+    height:10%;
+    width:97.25%;
+    left:1%;
+    top:14%;
+    background-color:grey;
+    color: white;
+    font: bold 20px Sans-Serif;
+    border:0.1em solid skyblue;
+}
+
 .tooltiptext {
     display: none;
     width:340px;
