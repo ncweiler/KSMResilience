@@ -316,7 +316,7 @@ font-family: sans-serif;
     position:relative;
     top:2.5%;
     float:left;
-    width:25%;
+    width:15%;
     height:25%;
     outline:0.5em solid #FFFC7F;
     display:block;
@@ -356,29 +356,13 @@ font-family: sans-serif;
 
 }
 
-.tn_caption {
-    display:block;
-    position:relative;
-    display:block;
-    float:right;
-    top:2.5%;
-    width:60%;
-    height:22.5%;
-    border: 2px solid black;
-    border-radius: 2em;
-    color:white;
-    background:gray;
-    font-size: 20px;
-    font-family:sans-serif;
-    text-align:center;
-}
-
 #firegame{
-    left:5%;
+    left:10%;
 }
 
 
 #firecaption{
+    top:4%;
     right:5%;
 }
 
@@ -397,8 +381,8 @@ font-family: sans-serif;
 }
 
 #homeprep {
-    top:5%;
-    left:5%;   
+    top:7%;
+    left:10%;   
 }
 
 #homecaption {
@@ -459,7 +443,7 @@ font-family: sans-serif;
     float:right;
     top:2.5%;
     width:60%;
-    height:22.5%;
+    height:20%;
     border: 2px solid black;
     border-radius: 2em;
     color:white;
@@ -549,7 +533,7 @@ font-family: sans-serif;
     position:absolute;
     width:97.5%;
     height:80%;
-    margin-top: 10.5%;
+    margin-top: 8%;
     margin-left:0.1%;
     border: 0.3em solid black;
     display:inline-block;
@@ -575,21 +559,36 @@ font-family: sans-serif;
     overflow:hidden;
 }
 
+#stopd {
+    margin-top:-px;
+    
+}
+
 .caption {
     position:absolute;
     width:95%;
-    height:5%;
-    margin:0%;
-    margin-top:72%;
+    height:auto;
+    margin-left:2.5%;
+    margin-top:47.5%;
     border:0.3em solid skyblue;
+    font-size:18px;
     text-align:center;
     font-family:sans-serif;
 }
 
+.caption p{
+    margin:auto;
+}
+
 #livingwfire {
-    height:67.5%;
-    width:60%;
-    margin-left:20%;
+    height:66%;
+    width:44%;
+    margin-left:27%;
+    overflow:hidden;
+}
+
+#fire_textbox {
+       
 }
 
 .tooltiptext {
