@@ -620,24 +620,18 @@ font-family: sans-serif;
     font-family:sans-serif;
 
     clear:right;
-<<<<<<< HEAD
-}
-
-.caption p{
-    margin:auto;
-=======
->>>>>>> a8cf0ca9cfcff2880f9a5261b10744435085ba46
 }
 
 #livingwfire {
     height:66%;
     width:44%;
-    margin-left:27%;
+    margin-left:10%;
+    top:7.5%;
     overflow:hidden;
 }
 
 #fire_textbox {
-       
+       font-size:18pt;
 }
 
 .tooltiptext {
