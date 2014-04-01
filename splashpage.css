@@ -214,38 +214,35 @@ html, body{
 }
 
 /*Specific thumbnail formatting for risk page*/
-.risk_tn{
-    position:relative;
+#riskpage .thumbnail{
+    position:absolute;
     float:right;
     width:25%;
     height:25%;
-    outline:0.5em solid #FFFC7F;
     display:block;
     text-align:center;
     clear:right;
-    border-bottom:2px solid black;
-    border-right:2px solid black;
+    right:9%
 }
 
-.risk_tn img{
+#riskpage .thumbnail img{
     position:absolute;
     display:block;
     width:100%;
     height:100%;
 }
 
-.risk_tn img:hover{
+#riskpage .thumbnail img:hover{
     opacity:.5
 }
 
-.risk_tn p{
+#riskpage .thumbnail p{
     display:block;
-    position:absolute;
     width:90%;
     height:auto;
     padding:.5em;
     left:2.5%;
-    top:65%;
+    top:60%;
 
     /*captions below images*/
     color: white;
@@ -257,22 +254,35 @@ html, body{
 
 }
 
-#riskdef {
+#riskdef{
     display:block;
     position:relative;
     width:50%;
     height:auto;
     float:left;
     text-align: center;
-    margin-top: 1%;
+    top: 1%;
     left: 5%;
-    font-family:sans-serif;
-    color:white;
-    font-size: 18px;
-    border:solid gray .2em;
 
     background: rgb(0, 0, 0); /* fallback color */
     background: rgba(0, 0, 0, 0.3); /* transparency */
+
+    border:solid gray .2em;
+}
+
+#riskdef p{
+    font-family:sans-serif;
+    color:white;
+    font-size: 18px;
+}
+
+#riskdef h3{
+font-family: sans-serif;
+}
+
+#riskdef span{
+    font-weight: bold;
+    font-size:20px;
 }
 
 .qc_frame {
@@ -282,10 +292,10 @@ html, body{
     clear:left;
     border:solid gray .2em;
     overflow:hidden;
-    top:-5%;
+    top:0%;
     left:5%;
     width:50%;
-    height:40%;
+    height:50%;
 }
 
 .qc_frame iframe {
@@ -294,29 +304,12 @@ html, body{
     width:100%;
 }
 
-#accenture {
-    top:2%;
-    right:5%;
-}
+/*vertical positioning of riskpage thumbnails*/
+#accenture {top:5%;}
 
+#NOAA {top:37%;}
 
-#NOAA {
-    top:6.25%;
-    right:5%;
-}
-
-#UNGRiD {
-    top:10.5%;
-    right:5%;
-}
-
-#riskdef h3{
-font-family: sans-serif;
-}
-
-#riskdef span{
-font-weight: bold;
-}
+#UNGRiD {top:70%;}
 
 /*Specific thumbnail formatting for planning page*/
 .planning_tn{
