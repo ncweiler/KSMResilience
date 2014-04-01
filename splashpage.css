@@ -646,6 +646,20 @@ font-family: sans-serif;
     overflow:hidden;
 }
 
+#googlemap{
+    left:1.15%;
+}
+
+#googlemap_cap{
+    height:10%;
+    border:none;
+    width:97.5%;
+    left:1.5%;
+    top:90%;
+    background-color:black;
+    color: white;
+    font: bold 20px Sans-Serif;
+}
 
 .tooltiptext {
     display: none;
