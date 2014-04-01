@@ -9,17 +9,20 @@ html, body{
     overflow-y: visible;
     margin:0px;
     border:1px solid black;
+
+    background-color:#FCE6C9;
+    z-index:-1;
 }
 
 #header{
     position:absolute;
     display:table;
-    background-color:skyblue; /*bolder color*/
+    /*background-color:skyblue; /*bolder color*/
+    background-color:skyblue;
     border: 2px solid #ccc;
     height:6em;
     width:98.5%;
-    margin-left:0%;
-    margin-right:0%;
+    left:.5%;
     border-radius:0px 0px 2em 2em;
     text-align: center;
 }
@@ -40,15 +43,6 @@ html, body{
     text-align: center;
     vertical-align:middle;
     width:10%;
-}
-
-#header>.left.button{
-    
-    /*margin:0% 0% 0% 2%;*/
-}
-
-#header>.right.button{
-    /*margin:0% 0% 0% 88%;*/
 }
 
 #header>.button img{
@@ -86,48 +80,24 @@ html, body{
 #mainpage{
     position:absolute;
     width:98.5%;
-    height:60em;
+    height:662px;
     margin-top: 6.5em;
     display:inline-block;
-    background-color:white; /*make gradient*/
+    left:.55%;
+    */background-color:white; /*make gradient*/
     clear:both;
+    z-index:-2;
 }
 
-
-#mainpage .thumbnail.top{
-    margin-top:2em;
-}
-
-#mainpage .thumbnail.bottom{
-    margin-top:35em;
-}
-
-#mainpage .thumbnail.left{
-    margin-left:10%;
-}
-
-#mainpage .thumbnail.right{
-    margin-left:68%;
-}
-
-#mainpage .thumbnail.horizctr{
-    margin-left:38%;
-    margin-right:38%;
-}
-
-#mainpage .thumbnail.vertctr{
-    margin-top:18.5em;
-}
-
-
+/*Basic thumbnail formatting*/
 .thumbnail{
-    position:absolute;
-    width:15em;
-    height:15em;
-    outline:0.75em solid #FFFC7F;
+    position:relative;
     display:block;
+
+    /*outline:0.75em solid #FFFC7F;*/
+
     text-align:center;
-    clear:both;
+
     border-bottom:2px solid black;
     border-right:2px solid black;
 }
@@ -145,15 +115,14 @@ html, body{
     opacity:.5
 }
 
-
 .thumbnail p{
     display:block;
     position:absolute;
+
     width:75%;
     height:auto;
+
     padding:.5em;
-    margin-left: 8%;
-    margin-top: 75%;
 
     /*captions below images*/
     color: white;
@@ -163,38 +132,56 @@ html, body{
     background: rgb(0, 0, 0); /* fallback color */
     background: rgba(0, 0, 0, 0.3); /* transparency */
 
+    text-decoration:none;
 }
 
+/*Thumbnail formatting for splashpage*/
 #splashpage .thumbnail{
     position:relative;
     display:inline;
     /*text-align:center;*/
-    width:25em;
-    height:25em;
+    width:15em;
+    height:15em;
     border-bottom:2px solid black;
     border-right:2px solid black;
 }
 
-#splashpage #mainpage .top{
-    margin-top:2em;
-}
 
-#splashpage #mainpage .left{
+#splashpage .thumbnail.left{
     float:left;
     clear:left;
-    margin-left:2em;
-    margin-right:1em;
+    left:18%;
+    top:0%;
 }
-#splashpage #mainpage .right{
-    float:right;
-    clear:right;
-    margin-right:2em;
-    margin-left:1em;
-}
-#splashpage #mainpage .bottom{
-    margin-top:2em;
+#splashpage .thumbnail.left p{
+    left:-100%
 }
 
+#splashpage .thumbnail.right{
+    float:right;
+    clear:right;
+    right:16%
+}
+#splashpage .thumbnail.right p{
+    left:106%
+}
+
+#splashpage .thumbnail.top{
+    top:6%;
+}
+#splashpage .thumbnail.top p{
+    top:-10%;
+}
+
+#splashpage .thumbnail.bottom{
+    top:20%;
+}
+#splashpage .thumbnail.bottom p{
+    top:57%;
+}
+
+
+/*Specific thumbnail formatting for case studies page*/
 #casestudies_page .thumbnail{
     position:relative;
     display:inline;
@@ -226,6 +213,7 @@ html, body{
     margin-top:2em;
 }
 
+/*Specific thumbnail formatting for risk page*/
 .risk_tn{
     position:relative;
     float:right;
@@ -330,6 +318,7 @@ font-family: sans-serif;
 font-weight: bold;
 }
 
+/*Specific thumbnail formatting for planning page*/
 .planning_tn{
     position:relative;
     top:2.5%;
