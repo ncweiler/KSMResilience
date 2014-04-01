@@ -137,80 +137,53 @@ html, body{
 
 /*Thumbnail formatting for splashpage*/
 #splashpage .thumbnail{
-    position:relative;
-    display:inline;
     /*text-align:center;*/
     width:15em;
     height:15em;
-    border-bottom:2px solid black;
-    border-right:2px solid black;
 }
 
-
-#splashpage .thumbnail.left{
+.thumbnail.left{
     float:left;
     clear:left;
     left:18%;
     top:0%;
 }
-#splashpage .thumbnail.left p{
+
+.thumbnail.left p{
     left:-100%
 }
 
-#splashpage .thumbnail.right{
+.thumbnail.right{
     float:right;
     clear:right;
     right:16%
 }
-#splashpage .thumbnail.right p{
+.thumbnail.right p{
     left:106%
 }
 
-#splashpage .thumbnail.top{
+.thumbnail.top{
     top:6%;
 }
-#splashpage .thumbnail.top p{
+
+.thumbnail.top p{
     top:-10%;
 }
 
-#splashpage .thumbnail.bottom{
+.thumbnail.bottom{
     top:20%;
 }
-#splashpage .thumbnail.bottom p{
+
+.thumbnail.bottom p{
     top:57%;
 }
 
 
 /*Specific thumbnail formatting for case studies page*/
 #casestudies_page .thumbnail{
-    position:relative;
-    display:inline;
     /*text-align:center;*/
-    width:25em;
-    height:25em;
-    border-bottom:2px solid black;
-    border-right:2px solid black;
-}
-
-#casestudies_page #mainpage .top{
-    margin-top:2em;
-}
-
-#casestudies_page #mainpage .left{
-    float:left;
-    clear:left;
-    margin-left:2em;
-    margin-right:1em;
-}
-#casestudies_page #mainpage .right{
-    float:right;
-    clear:right;
-    margin-right:2em;
-    margin-left:1em;
-}
-
-#casestudies_page #mainpage .bottom{
-    margin-top:2em;
+    width:15em;
+    height:15em;
 }
 
 /*Specific thumbnail formatting for risk page*/
