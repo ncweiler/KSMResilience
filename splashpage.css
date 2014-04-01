@@ -468,7 +468,7 @@ font-family: sans-serif;
     width:97.5%;
     height:80%;
     margin-top: 8%;
-    margin-left:0.1%;
+    left:1%;
     border: 0.3em solid black;
 
     background-color:white;
@@ -580,10 +580,6 @@ font-family: sans-serif;
     margin-left:10%;
     top:7.5%;
     overflow:hidden;
-}
-
-#googlemap{
-    left:1.15%;
 }
 
 #googlemap_cap{
