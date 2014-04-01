@@ -552,6 +552,11 @@ font-family: sans-serif;
     clear:right;
 }
 
+.caption li{
+    padding-top: 10px;
+    padding-bottom:10px;
+}
+
 .comic{
     top:0.5%;
     left:2.5%;
