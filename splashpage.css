@@ -1,11 +1,11 @@
 html, body{
     /* This restricts the body of each page to the resolution of the Idea Lab monitors*/
     position:relative;
-    min-width:1366px;
-    min-height:768px;
-    width:1366px;
-    height:768px;
-    max-height:768px;
+    min-width:1357px;
+    min-height:765px;
+    width:1357px;
+    height:765px;
+    max-height:765px;
     overflow-y: visible;
     margin:0px;
     border:1px solid black;
