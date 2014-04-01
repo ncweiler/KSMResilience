@@ -427,6 +427,11 @@ font-family: sans-serif;
     top:9%;
 }
 
+#comic_tn{
+    height:;
+    width:;
+}
+
 #mainpage>.qrcode {
     position:absolute;
     width:15em;
@@ -460,13 +465,17 @@ font-family: sans-serif;
 }
 
 #mainpage>.qrcode p:nth-child(2){
-    margin-top:-2em;
-
-}
-
-#mainpage>.qrcode p:nth-child(3){
     margin-top:11em;
 }
+
+#mainpage .horizctr{
+    margin-left:42%;
+}
+
+#mainpage .vertctr{
+    margin-top:15%;
+}
+
 
 /*Default resource_frame formatting*/
 .resource_frame {
