@@ -631,6 +631,13 @@ font-family: sans-serif;
     clear:right;
 }
 
+.comic{
+    top:0.5%;
+    left:2.5%;
+    width:60%;
+    height:82.5%;
+}
+
 #livingwfire {
     height:66%;
     width:44%;
