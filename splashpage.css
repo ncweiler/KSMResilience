@@ -600,9 +600,18 @@ font-family: sans-serif;
     overflow:hidden;
 }
 
+#stopdframe {
+    width:55%;
+    left:4.5%;
+    top:1%;
+}
+
 #stopd {
-    margin-top:-px;
-    
+    width:150%;
+    height:200%;
+    top:-150px;
+    left:-185px;
+    overflow:visible;
 }
 
 .caption {
@@ -613,7 +622,7 @@ font-family: sans-serif;
     height:82%;
     top:15%;
     right:2%;
-
+    font-size:18pt;
     border:0.3em solid skyblue;
 
     text-align:left;
@@ -630,9 +639,6 @@ font-family: sans-serif;
     overflow:hidden;
 }
 
-#fire_textbox {
-       font-size:18pt;
-}
 
 .tooltiptext {
     display: none;
