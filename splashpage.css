@@ -651,13 +651,18 @@ margin:0;}
 
 #unisdr_cap{
     height:10%;
-    width:97.25%;
+    width:98%;
     left:1%;
     top:14%;
     background-color:grey;
     color: white;
     font: bold 20px Sans-Serif;
     border:0.1em solid skyblue;
+}
+
+#unisdr_cap p{
+    margin:0px;
+    padding:5px;
 }
 
 #zombie_cap{
