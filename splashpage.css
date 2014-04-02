@@ -604,16 +604,18 @@ font-family: sans-serif;
     overflow:hidden;
 }
 
-#fulllength_cap{
+#gcrisis_cap{
     height:10%;
     border:none;
-    width:97.5%;
-    left:1.5%;
+    width:96.5%;
+    left:1%;
     top:90%;
-    background-color:black;
+    height:8%;
+    background-color:grey;
     color: white;
     font: bold 20px Sans-Serif;
     border:0.3em solid skyblue;
+    padding:5px;
 }
 
 #accenture_cap{
