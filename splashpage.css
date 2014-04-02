@@ -625,6 +625,9 @@ font-family: sans-serif;
     padding:5px;
 }
 
+#accenture_cap ul{
+margin:0;}
+
 #sealevel_cap{
     height:10%;
     width:97.25%;
