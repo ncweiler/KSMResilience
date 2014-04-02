@@ -710,6 +710,18 @@ margin:0;}
     border:0.1em solid skyblue;
 }
 
+#twitter_share_block{
+    position:absolute;
+    display:block;
+
+    background:white;
+    padding-top:310px;
+    padding-left:50px;
+
+    top:34%;
+    left:1.5%;
+}
+
 .tooltiptext {
     display: none;
     width:340px;
@@ -1043,3 +1055,5 @@ height:8.5em;
     top:10%;
     right: 10%;
 }
+
+
