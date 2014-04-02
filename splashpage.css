@@ -683,6 +683,31 @@ margin:0;}
     margin:auto;
 }
 
+#fire_caption{
+    width:40%;
+    height:auto;
+
+    top:35%;
+
+    background-color:grey;
+    color: white;
+    font: bold 20px Sans-Serif;
+    border:0.1em solid skyblue;
+}
+
+#stopdisasters_caption{
+    width:35%;
+    height:auto;
+
+    top:27%;
+    left:63%;
+
+    background-color:grey;
+    color: white;
+    font: bold 20px Sans-Serif;
+    border:0.1em solid skyblue;
+}
+
 .tooltiptext {
     display: none;
     width:340px;
