@@ -537,6 +537,8 @@ font-family: sans-serif;
     top:1%;
 }
 
+
+
 #stopd {
     width:150%;
     height:200%;
@@ -647,6 +649,24 @@ font-family: sans-serif;
     color: white;
     font: bold 20px Sans-Serif;
     border:0.1em solid skyblue;
+}
+
+#zombie_cap{
+    height:7.5%;
+    border:none;
+    width:90%;
+    left:5%;
+    top:91.5%;
+    background-color:black;
+    color: white;
+    font: bold 20px Sans-Serif;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid grey;
+}
+
+#zombie_cap p{
+    margin:auto;
 }
 
 .tooltiptext {
