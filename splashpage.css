@@ -569,9 +569,29 @@ font-family: sans-serif;
 
 .comic{
     top:0.5%;
-    left:2.5%;
-    width:60%;
-    height:82.5%;
+    left:2%;
+    width:95%;
+    height:80%;
+}
+
+#comic_cap_left{
+    top:70%;
+    left:3.5%;
+    width:20%;
+    height:20%;
+    background: white;
+    border-radius: 10px;
+    font-size:20px;
+}
+
+#comic_cap_right{
+    top:70%;
+    right:5%;
+    width:20%;
+    height:20%;
+    background: white;
+    border-radius: 10px;
+    font-size:20px;
 }
 
 #livingwfire {
