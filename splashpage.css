@@ -8,7 +8,7 @@ html, body{
     max-height:765px;
     overflow-y: visible;
     margin:0px;
-    border:1px solid black;
+    border:0px solid black;
 
     background-color:#FCE6C9;
     z-index:-1;
@@ -733,16 +733,17 @@ color:white;
 /*formatting for case study pages*/
 
 html.CS_page{
-    /* This restricts the body of each page to the resolution of the Idea Lab monitors*/
-    position:relative;
+    /* This restricts the body of each page to the resolution of the Idea Lab monitors
+    position:relative;*/
     min-width:1366px;
     min-height:768px;
     width:1366px;
     height:768px;
     max-height:768px;
     overflow-y:visible;
-    border:1px solid black;
-    z-index=2;
+    border:0px solid black;
+    z-index=-2;
+
 }
 
 
@@ -788,10 +789,10 @@ html.CS_page .textbox.right{
 html.CS_page .textbox{
     position:absolute;
     width:45%;
-    background-color:black;
-    opacity:0.7; /* transparency */
-    filter:alpha(opacity=70); /* IE transparency */
     line-height:1.5;
+
+    background: rgb(0, 0, 0); /* fallback color */
+    background: rgba(0, 0, 0, 0.5); /* transparency */
 }
 
 html.CS_page .cs_pane p{
