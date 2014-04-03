@@ -10,15 +10,18 @@ html, body{
     margin:0px;
     border:0px solid black;
 
-    background-color:#FCE6C9;
+    background-color:#A3DBB2/*#FFB273/*#67E667#FCE6C9*/;
     z-index:-1;
 }
+
+#header{background-color:#248F40;border:3px solid tangerine}
+#title{color:white;}
 
 #header{
     position:absolute;
     display:table;
     /*background-color:skyblue; /*bolder color*/
-    background-color:skyblue;
+    background-color:/*#269926;/*#FF9640skyblue;*/
     border: 2px solid #ccc;
     height:6em;
     width:98.5%;
@@ -32,7 +35,7 @@ html, body{
     display:table-cell;
     width:60%;
     font-size:3em; /*make sure this is bold*/
-    color:white;
+    /*color:white;*/
     font-weight:bold;
     font-family:sans-serif;
     vertical-align:middle;
@@ -92,16 +95,13 @@ html, body{
 /*Basic thumbnail formatting*/
 .thumbnail{
     position:relative;
-    display:block;
-
-    /*outline:0.75em solid #FFFC7F;*/
-
-    text-align:center;
-
-    border-bottom:2px solid black;
-    border-right:2px solid black;
+    display:inline;
+    /*text-align:center;*/
+    width:15em;
+    height:15em;
+    border-bottom:4px solid #a65200 /*black*/;
+    border-right:4px solid #a65200 /*black*/;
 }
-
 .thumbnail img{
     position:absolute;
     display:block;
@@ -130,21 +130,14 @@ html, body{
     letter-spacing: 0em;
 
     background: rgb(0, 0, 0); /* fallback color */
-    background: rgba(0, 0, 0, 0.3); /* transparency */
+    background: rgba(0, 0, 0, 0.5); /* transparency */
 
     text-decoration:none;
+    border-radius:50px;
 }
 
 /*Thumbnail formatting for splashpage*/
-.thumbnail{
-    position:relative;
-    display:inline;
-    /*text-align:center;*/
-    width:15em;
-    height:15em;
-    border-bottom:2px solid black;
-    border-right:2px solid black;
-}
+
 
 
 .thumbnail.left{
@@ -154,7 +147,7 @@ html, body{
     top:0%;
 }
 .thumbnail.left p{
-    left:-100%
+    left:10%
 }
 
 .thumbnail.right{
