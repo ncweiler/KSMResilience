@@ -8,7 +8,7 @@ html, body{
     max-height:765px;
     overflow-y: visible;
     margin:0px;
-    border:0px solid black;
+    border:2px solid black;
 
     background-color:#CDE793/*#A3DBB2/*#FFB273/*#67E667#FCE6C9*/;
     z-index:-1;
@@ -166,28 +166,37 @@ html, body{
 
 #splashpage .thumbnail.bottom{top:21.5em;}
 
-
-
-/*Specific thumbnail formatting for case studies page*/
-#casestudies_page .thumbnail{
-    width:15em;
-    height:15em;
+.CS_splash{
+    width:17.5em;
+    height:17.5em;
+    top:2.5%;
+    position:relative;
 }
 
-#casestudies_page .thumbnail.left{
+#flood{
     left:5%;
+    float:left;
+    clear:left;
 }
 
-#casestudies_page .thumbnail.right{
+#hurricane{
     right:5%;
+    float:right;
+    clear:right;
 }
 
-#casestudies_page .thumbnail.bottom.right p{
-    top:69%;
+#earthquake{
+    left:5%;
+    top:7.5%;
+    float:left;
+    clear:left;
 }
 
-#casestudies_page .thumbnail.bottom.left p{
-    top:45%;
+#surge{
+    right:5%;
+    top:7.5%;
+    float:right;
+    clear:right;
 }
 
 
@@ -295,8 +304,8 @@ font-family: sans-serif;
     display:block;
     text-align:center;
     
-    border-bottom:2px solid black;
-    border-right:2px solid black;
+    border-bottom:4px solid #a65200 /*black*/;
+    border-right:4px solid #a65200 /*black*/;
     
     width:17.5%;
     height:30%;
