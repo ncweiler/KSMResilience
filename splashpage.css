@@ -10,18 +10,17 @@ html, body{
     margin:0px;
     border:0px solid black;
 
-    background-color:#A3DBB2/*#FFB273/*#67E667#FCE6C9*/;
+    background-color:#CDE793/*#A3DBB2/*#FFB273/*#67E667#FCE6C9*/;
     z-index:-1;
 }
 
-#header{background-color:#248F40;border:3px solid tangerine}
 #title{color:white;}
 
 #header{
     position:absolute;
     display:table;
     /*background-color:skyblue; /*bolder color*/
-    background-color:/*#269926;/*#FF9640skyblue;*/
+    background-color:#49B53E;/*#269926;/*#FF9640skyblue;*/
     border: 2px solid #ccc;
     height:6em;
     width:98.5%;
@@ -39,7 +38,7 @@ html, body{
     font-weight:bold;
     font-family:sans-serif;
     vertical-align:middle;
-    text-shadow: 2px 2px #A3DBB2;
+    text-shadow: 2px 2px 5px #CDE793/*#A3DBB2*/;
 }
 
 #header>.button{
