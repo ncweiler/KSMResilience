@@ -18,7 +18,7 @@ $(document).ready(function() {
                 }
             },
             style: {
-                classes: 'qtip-blue qtip-shadow'
+                classes: 'qtip-green qtip-shadow'
             }
         });
     });
@@ -42,7 +42,7 @@ $(document).ready(function() {
                 }
             },
             style: {
-                classes: 'qtip-blue qtip-shadow'
+                classes: 'qtip-green qtip-shadow'
             }
         });
     });
@@ -66,7 +66,7 @@ $(document).ready(function() {
                 }
             },
             style: {
-                classes: 'qtip-blue qtip-shadow',
+                classes: 'qtip-green qtip-shadow',
             }
         });
     });
@@ -90,7 +90,7 @@ $(document).ready(function() {
                 }
             },
             style: {
-                classes: 'qtip-blue qtip-shadow'
+                classes: 'qtip-green qtip-shadow'
             }
         });
     }); 
