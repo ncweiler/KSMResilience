@@ -138,40 +138,34 @@ html, body{
 
 /*Thumbnail formatting for splashpage*/
 
+#splashpage .thumbnail{
+    width:19em;
+    height:19em;}
+#splashpage .thumbnail p{
+    top:8.15em;
+}
 
-
-.thumbnail.left{
+#splashpage .thumbnail.left{
     float:left;
     clear:left;
-    left:18%;
-    top:0%;
+    left:12%;
 }
-.thumbnail.left p{
-    left:10%
+#splashpage .thumbnail.left p{
+    left:0%;
+    border-radius:0em 2em 2em 0em;
 }
 
-.thumbnail.right{
+#splashpage .thumbnail.right{
     float:right;
     clear:right;
-    right:16%
+    right:12%
 }
-.thumbnail.right p{
-    left:106%
-}
+#splashpage .thumbnail.right p{right:0%;border-radius:2em 0em 0em 2em;        }
 
-.thumbnail.top{
-    top:6%;
-}
-.thumbnail.top p{
-    top:-10%;
-}
+#splashpage .thumbnail.top{top:.5em;}
 
-.thumbnail.bottom{
-    top:20%;
-}
-.thumbnail.bottom p{
-    top:57%;
-}
+#splashpage .thumbnail.bottom{top:2em;}
+
 
 
 /*Specific thumbnail formatting for case studies page*/
