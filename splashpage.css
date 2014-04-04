@@ -94,8 +94,8 @@ html, body{
 
 /*Basic thumbnail formatting*/
 .thumbnail{
-    position:relative;
-    display:inline;
+    position:absolute;
+    display:block;
     /*text-align:center;*/
     width:15em;
     height:15em;
@@ -164,7 +164,7 @@ html, body{
 
 #splashpage .thumbnail.top{top:.5em;}
 
-#splashpage .thumbnail.bottom{top:2em;}
+#splashpage .thumbnail.bottom{top:21.5em;}
 
 
 
@@ -172,6 +172,14 @@ html, body{
 #casestudies_page .thumbnail{
     width:15em;
     height:15em;
+}
+
+#casestudies_page .thumbnail.left{
+    left:5%;
+}
+
+#casestudies_page .thumbnail.right{
+    right:5%;
 }
 
 #casestudies_page .thumbnail.bottom.right p{
