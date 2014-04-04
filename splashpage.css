@@ -17,7 +17,7 @@ html, body{
 #title{color:white;}
 
 #header{
-    position:absolute;
+    position:fixed;
     display:table;
     /*background-color:skyblue; /*bolder color*/
     background-color:#49B53E;/*#269926;/*#FF9640skyblue;*/
@@ -27,6 +27,7 @@ html, body{
     left:.5%;
     border-radius:0px 0px 2em 2em;
     text-align: center;
+    z-index:10000;
 }
 
 #title{
@@ -1120,4 +1121,5 @@ height:8.5em;
     right: 10%;
 }
 
-
+video{
+z-index=-1;}
