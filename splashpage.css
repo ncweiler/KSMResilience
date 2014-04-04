@@ -39,6 +39,7 @@ html, body{
     font-weight:bold;
     font-family:sans-serif;
     vertical-align:middle;
+    text-shadow: 2px 2px #A3DBB2;
 }
 
 #header>.button{
