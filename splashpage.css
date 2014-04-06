@@ -10,21 +10,19 @@ html, body{
     margin:0px;
     border:0px solid black;
 
-    background-color:#CDE793/*#A3DBB2/*#FFB273/*#67E667#FCE6C9*/;
+    background-color:#3DC73D;
+    /*#29CA29/*#399200;/*#CDE793/*#A3DBB2/*#FFB273/*#67E667/*#FCE6C9*/;
     z-index:-1;
 }
-
-#title{color:white;}
 
 #header{
     position:fixed;
     display:table;
-    /*background-color:skyblue; /*bolder color*/
-    background-color:#49B53E;/*#269926;/*#FF9640skyblue;*/
+    background-color:#007439;/*#49B53E;/*#269926;/*#FF9640skyblue;*/
     border: 2px solid #ccc;
     height:6em;
     width:98.5%;
-    left:.5%;
+    left:.7%;
     border-radius:0px 0px 2em 2em;
     text-align: center;
     z-index:10000;
@@ -35,11 +33,11 @@ html, body{
     display:table-cell;
     width:60%;
     font-size:3em; /*make sure this is bold*/
-    /*color:white;*/
+    color:white;
     font-weight:bold;
     font-family:sans-serif;
     vertical-align:middle;
-    text-shadow: 2px 2px 5px #CDE793/*#A3DBB2*/;
+    text-shadow: 3px 3px 5px #3dC73D/*#CDE793/*#A3DBB2*/;
 }
 
 #header>.button{
@@ -79,16 +77,11 @@ html, body{
     margin:-50px 0px 0px -65px;
 }
 
-#header>.button a:hover{}
-
 #mainpage{
     position:absolute;
-    width:98.5%;
-    height:662px;
+    width:100%;
     margin-top: 6.5em;
     display:inline-block;
-    left:.55%;
-    */background-color:white; /*make gradient*/
     clear:both;
     z-index:-2;
 }
@@ -98,17 +91,16 @@ html, body{
     position:absolute;
     display:block;
     /*text-align:center;*/
-    width:15em;
+    width:20em;
     height:15em;
-    border-bottom:4px solid #a65200 /*black*/;
-    border-right:4px solid #a65200 /*black*/;
+    border-bottom:4px solid #FF4900;/*#a65200 /*black*/;
+    border-right:4px solid #FF4900;/*#a65200 /*black*/;
 }
 .thumbnail img{
     position:absolute;
     display:block;
     width:100%;
     height:100%;
-    /*bezel borders: make them pop*/
 
 }
 
@@ -140,16 +132,16 @@ html, body{
 /*Thumbnail formatting for splashpage*/
 
 #splashpage .thumbnail{
-    width:19em;
+    width:25em;
     height:19em;}
 #splashpage .thumbnail p{
-    top:8.15em;
+    top:8.4em;
 }
 
 #splashpage .thumbnail.left{
     float:left;
     clear:left;
-    left:12%;
+    left:5%;
 }
 #splashpage .thumbnail.left p{
     left:0%;
@@ -159,7 +151,7 @@ html, body{
 #splashpage .thumbnail.right{
     float:right;
     clear:right;
-    right:12%
+    right:5%
 }
 #splashpage .thumbnail.right p{right:0%;border-radius:2em 0em 0em 2em;        }
 
