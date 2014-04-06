@@ -79,7 +79,8 @@ html, body{
 
 #mainpage{
     position:absolute;
-    width:100%;
+    width:98.5%;
+    height:662px;
     margin-top: 6.5em;
     display:inline-block;
     clear:both;
