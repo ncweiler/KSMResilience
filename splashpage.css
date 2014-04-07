@@ -304,6 +304,7 @@ html, body{
     background: rgba(0, 0, 0, 0.3); /* transparency */
 
     border:solid gray .2em;
+    color:white;
 }
 
 #riskdef p{
