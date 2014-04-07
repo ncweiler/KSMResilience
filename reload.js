@@ -1,3 +1,4 @@
+//To change idle time before returning to home page, change the number in line 18 (idleTime > n), where n is 1 less than the number of minutes you want to idle before reverting to the splash page.
 idleTime = 0;
 $(document).ready(function () {
     //Increment the idle time counter every minute.
