@@ -8,32 +8,23 @@ html, body{
     max-height:765px;
     overflow-y: visible;
     margin:0px;
-    border:2px solid black;
-}
+    border:0px solid black;
 
-html{
-    background-color:#CDE793/*#A3DBB2/*#FFB273/*#67E667#FCE6C9*/;
-    z-index:-100000;
-}
-
-/*make sure to turn off border for CS_pages*/
-.CS_page{
-    border:0px;
+    background-color:#3DC73D;
+    /*#29CA29/*#399200;/*#CDE793/*#A3DBB2/*#FFB273/*#67E667/*#FCE6C9*/;
+    z-index:-1;
 }
 
 #header{
     position:fixed;
-
     display:table;
-    /*background-color:skyblue; /*bolder color*/
-    background-color:#49B53E;/*#269926;/*#FF9640skyblue;*/
+    background-color:#007439;/*#49B53E;/*#269926;/*#FF9640skyblue;*/
     border: 2px solid #ccc;
     height:6em;
     width:98.5%;
-    left:.5%;
+    left:.7%;
     border-radius:0px 0px 2em 2em;
     text-align: center;
-
     z-index:10000;
 }
 
@@ -46,7 +37,7 @@ html{
     font-weight:bold;
     font-family:sans-serif;
     vertical-align:middle;
-    text-shadow: 2px 2px 5px #CDE793/*#A3DBB2*/;
+    text-shadow: 3px 3px 5px #3dC73D/*#CDE793/*#A3DBB2*/;
 }
 
 #header>.button{
@@ -77,16 +68,13 @@ html{
 }
 
 #header .section_thumb img{
-    height:200%;
-    width:200%;
-    margin:-30px 0px 0px -65px;
+    height:100%;
+    width:100%;
 }
 
 #header .section_thumb #networks_thumb{
     margin:-50px 0px 0px -65px;
 }
-
-#header>.button a:hover{}
 
 #mainpage{
     position:absolute;
@@ -94,8 +82,6 @@ html{
     height:662px;
     margin-top: 6.5em;
     display:inline-block;
-    left:.55%;
-    */background-color:white; /*make gradient*/
     clear:both;
     z-index:-2;
 }
@@ -104,18 +90,16 @@ html{
 .thumbnail{
     position:absolute;
     display:block;
-    /*text-align:center;*/
     width:15em;
     height:15em;
-    border-bottom:4px solid #a65200 /*black*/;
-    border-right:4px solid #a65200 /*black*/;
+    border-bottom:4px solid #FF4900;/*#a65200 /*black*/;
+    border-right:4px solid #FF4900;/*#a65200 /*black*/;
 }
 .thumbnail img{
     position:absolute;
     display:block;
     width:100%;
     height:100%;
-    /*bezel borders: make them pop*/
 
 }
 
@@ -147,16 +131,16 @@ html{
 /*Thumbnail formatting for splashpage*/
 
 #splashpage .thumbnail{
-    width:19em;
+    width:25em;
     height:19em;}
 #splashpage .thumbnail p{
-    top:8.15em;
+    top:8.4em;
 }
 
 #splashpage .thumbnail.left{
     float:left;
     clear:left;
-    left:12%;
+    left:5%;
 }
 #splashpage .thumbnail.left p{
     left:0%;
@@ -166,7 +150,7 @@ html{
 #splashpage .thumbnail.right{
     float:right;
     clear:right;
-    right:12%
+    right:5%
 }
 #splashpage .thumbnail.right p{right:0%;border-radius:2em 0em 0em 2em;        }
 
@@ -235,7 +219,7 @@ html{
 
 #flood_cap{
     border-left:none;
-    left:26%;
+    left:26.15%;
     top:3%;
 }
 
@@ -251,7 +235,7 @@ html{
 
 #eq_cap{
     top:50%;
-    left:26%;
+    left:26.15%;
     border-left:none;
 }
 
@@ -469,7 +453,7 @@ font-family: sans-serif;
 
 #third_tn {
     top:7%;
-    left:10%;   
+    left:10%;
 }
 
 #third_cap {
@@ -479,12 +463,32 @@ font-family: sans-serif;
     top:9%;
 }
 
-#comic_tn{
-    height:;
-    width:;
+#comics_page .thumbnail{
+    width:18em;
+    height:20em;
 }
 
-#mainpage>.qrcode {
+
+#comics_page .thumbnail.left{
+    float:left;
+    clear:left;
+    left:5%;
+}
+
+#comics_page .thumbnail.right{
+    float:right;
+    clear:right;
+    right:5%;
+}
+
+#comics_page .thumbnail.top{
+    top:0%;
+}
+#comics_page .thumbnail.bottom{
+    top:50%;
+}
+
+#comics_page .qrcode {
     position:absolute;
     width:15em;
     height:15em;
@@ -493,14 +497,14 @@ font-family: sans-serif;
     clear:both;
 }
 
-#mainpage>.qrcode img{
+#comics_page .qrcode img{
     position:absolute;
     display:block;
     width:100%;
     height:100%;
 }
 
-#mainpage>.qrcode p{
+#comics_page .qrcode p{
     display:block;
     position:absolute;
     width:75%;
@@ -513,10 +517,9 @@ font-family: sans-serif;
 
     /*background: rgb(0, 0, 0); /* fallback color
     background: rgba(0, 0, 0, 0.3); /* transparency */
-
 }
 
-#mainpage>.qrcode p:nth-child(2){
+#comics_page .qrcode p:nth-child(2){
     margin-top:11em;
 }
 
@@ -638,6 +641,14 @@ font-family: sans-serif;
     padding-bottom:10px;
 }
 
+.caption p{
+    color: white;
+    font: bold 20px Sans-Serif;
+    text-align:left;
+    padding:5px;}
+
+#sealevel_rise
+
 .comic{
     top:0.5%;
     left:2%;
@@ -697,30 +708,20 @@ font-family: sans-serif;
 }
 
 #accenture_cap ul{
-margin:0;}
+    margin:0;
+}
 
-#sealevel_cap{
-    height:10%;
+#risingseas_page .caption{
+    height:14%;
     width:97.25%;
     left:1%;
-    top:88.5%;
-    background-color:grey;
-}
+    top:84.5%;
+    background-color:grey;}
 
-#sealevel_cap li{
-    padding:0px;
-}
+#risingseas_page .caption p{
+    margin:5px;}
 
 #sealevel_help1 .caption{
-    height:10%;
-    width:97.25%;
-    left:1%;
-    top:88.5%;
-    background-color:grey;
-    text-align: center;
-}
-
-#sealevel_help2 .caption{
     height:10%;
     width:97.25%;
     left:1%;
@@ -863,7 +864,7 @@ color:white;
 
 /*formatting for case study pages*/
 
-.CS_page{
+html.CS_page{
     /* This restricts the body of each page to the resolution of the Idea Lab monitors
     position:relative;*/
     min-width:1366px;
@@ -880,7 +881,8 @@ color:white;
 
 html.CS_page #header{
     position:fixed;
-    z-index:100000;
+    -webkit-transform: translatez(0);
+    z-index:1;
     /*to get rid of top space*/
     /*margin-top:-.5em;*/
 }
@@ -932,6 +934,24 @@ html.CS_page .cs_pane p{
     padding:.5em;
     color:white;
     font-weight:bold;
+    font-family:sans-serif;
+}
+
+html.CS_page #scroll_hint{
+    position:absolute;
+    width:10%;
+    right:0%;
+    top:86%;
+    margin:0px;
+    padding:10px;
+    border-radius:50px;
+
+    text-align:center;
+    font: 18px sans-serif;
+    font-weight:bold;
+    color:white;
+    background: rgb(0, 0, 0); /* fallback color */
+    background: rgba(0, 0, 0, 0.5); /* transparency */
 }
 
 /*style for first block of text for each panel*/
@@ -941,8 +961,11 @@ html.CS_page .cs_pane>:first-child p{
 }
 
 /*page-specific formatting*/
-#CR_page #blank1{
-    height:8.5em;}
+#CR_page #CR_blank1{
+    height:6.5em;
+}
+
+#CR_blank1 div{width:50%}
 
 #EQ_page #SF1906 object{
     height:40em;
@@ -965,40 +988,40 @@ height:8.5em;
 }
 
 /*set textbox positions for each page*/
-#CR_page #rains>:first-child{top:0%;}
+#CR_page #CR_rains>:first-child{top:0%;}
 
-#CR_page #rains>:nth-child(2){top:20%;}
+#CR_page #CR_rains>:nth-child(2){top:20%;}
 
-#CR_page #rains>:nth-child(3){top:50%;}
+#CR_page #CR_rains>:nth-child(3){top:50%;}
 
-#CR_page #rains>:nth-child(4){top:80%;}
+#CR_page #CR_rains>:nth-child(4){top:80%;}
 
-#CR_page #flood>:first-child{top:0%;}
+#CR_page #CR_flood>:first-child{top:0%;}
 
-#CR_page #flood>:nth-child(2){top:30%;}
+#CR_page #CR_flood>:nth-child(2){top:30%;}
 
-#CR_page #flood>:nth-child(3){top:75%;}
+#CR_page #CR_flood>:nth-child(3){top:75%;}
 
-#CR_page #volunteer1>:first-child{top:0%;}
+#CR_page #CR_volunteer1>:first-child{top:0%;}
 
-#CR_page #volunteer1>:nth-child(2){top:40%;}
+#CR_page #CR_volunteer1>:nth-child(2){top:40%;}
 
-#CR_page #volunteer1>:nth-child(3){top:70%;}
+#CR_page #CR_volunteer1>:nth-child(3){top:70%;}
 
-#CR_page #volunteer2>:first-child{top:0%;}
+#CR_page #CR_volunteer2>:first-child{top:0%;}
 
-#CR_page #volunteer2>:nth-child(2){top:75%;}
+#CR_page #CR_volunteer2>:nth-child(2){top:75%;}
 
 /*different textbox width for #nuclear*/
-#CR_page #nuclear div{width:45%;}
+#CR_page #CR_nuclear div{width:45%;}
 
-#CR_page #nuclear>:first-child{top:0%;}
+#CR_page #CR_nuclear>:first-child{top:0%;}
 
-#CR_page #nuclear>:nth-child(2){top:30%;}
+#CR_page #CR_nuclear>:nth-child(2){top:30%;}
 
-#CR_page #nuclear>:nth-child(3){top:50%;}
+#CR_page #CR_nuclear>:nth-child(3){top:50%;}
 
-#CR_page #nuclear>:nth-child(4){top:80%;}
+#CR_page #CR_nuclear>:nth-child(4){top:80%;}
 
 #EQ_page #SF1906>:first-child{top:5%;}
 
