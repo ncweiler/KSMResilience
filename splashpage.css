@@ -1118,6 +1118,28 @@ height:8.5em;
     font-weight:bold;
 }
 
+.CS_page .CS_credits{
+    position:absolute;
+    background-color:black;
+    width:40%;
+    left:30.5%;
+    opacity:0.7; /* transparency */
+    filter:alpha(opacity=70); /* IE transparency */
+    line-height:1.5;
+    padding:.5em;
+    border-radius:5em 5em 0em 0em;
+}
+
+.CS_page .CS_credits p,ol{
+    font-size:1.2em;
+    color:white;
+    font-weight:bold;
+    }
+
+.CS_page .CS_credits p{
+    text-align:center;
+}
+
 #florida_tn, #katrina_tn{
     position:absolute;
     width:25em;
