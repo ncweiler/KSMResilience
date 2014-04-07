@@ -934,6 +934,24 @@ html.CS_page .cs_pane p{
     padding:.5em;
     color:white;
     font-weight:bold;
+    font-family:sans-serif;
+}
+
+html.CS_page #scroll_hint{
+    position:absolute;
+    width:10%;
+    right:0%;
+    top:86%;
+    margin:0px;
+    padding:10px;
+    border-radius:50px;
+
+    text-align:center;
+    font: 18px sans-serif;
+    font-weight:bold;
+    color:white;
+    background: rgb(0, 0, 0); /* fallback color */
+    background: rgba(0, 0, 0, 0.5); /* transparency */
 }
 
 /*style for first block of text for each panel*/
