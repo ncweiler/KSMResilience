@@ -944,8 +944,10 @@ html.CS_page .cs_pane>:first-child p{
 
 /*page-specific formatting*/
 #CR_page #CR_blank1{
-    height:8.5em;
+    height:6.5em;
 }
+
+#CR_blank1 div{width:50%}
 
 #EQ_page #SF1906 object{
     height:40em;
