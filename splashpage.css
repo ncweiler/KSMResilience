@@ -722,7 +722,7 @@ font-family: sans-serif;
 #risingseas_page .caption p{
     margin:5px;}
 
-#sealevel_help1 .caption{
+#elp1 .caption{
     height:10%;
     width:97.25%;
     left:1%;
@@ -805,7 +805,7 @@ font-family: sans-serif;
 .tooltiptext {
     display: none;
     width:340px;
-    height:380px;
+    height:400px;
     text-align:center;
     font-size: 18px;
     font-family:sans-serif;
@@ -815,6 +815,11 @@ font-family: sans-serif;
     margin:10px 10px 10px 10px;
     height: 200px;
     width: 200px;
+}
+
+#qc_tooltip{
+    height:130px;
+    margin:auto;
 }
 
 #stakeholders{
@@ -1092,7 +1097,7 @@ height:8.5em;
 
 #CR_page #sandypane>:nth-child(3){top:50%;}
 
-#CR_page #sandypane>:nth-child(4){top:68.5%;font-size:1.5em;}
+#CR_page #sandypane>:nth-child(4){top:62.5%;font-size:1.5em;}
 
 #CR_page #palisadebay>:nth-child(1){font-size:0.8em; width:50%;}
 

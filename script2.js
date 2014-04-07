@@ -1,5 +1,5 @@
 $(document).ready(function() {   
-     $('.qcframe').each(function(){
+     $('.qc_frame').each(function(){
         $(this).qtip({
             content: $(this).next('.tooltiptext'),
             show: {
