@@ -922,7 +922,7 @@ html.CS_page .textbox.right{
 
 html.CS_page .textbox{
     position:absolute;
-    width:45%;
+    width:50%;
     line-height:1.5;
 
     background: rgb(0, 0, 0); /* fallback color */
@@ -963,7 +963,7 @@ html.CS_page .cs_pane>:first-child p{
 
 /*page-specific formatting*/
 #CR_page #CR_blank1{
-    height:6.5em;
+    height:8em;
 }
 
 #CR_blank1 div{width:50%}
@@ -991,9 +991,9 @@ height:8.5em;
 /*set textbox positions for each page*/
 #CR_page #CR_rains>:first-child{top:0%;}
 
-#CR_page #CR_rains>:nth-child(2){top:20%;}
+#CR_page #CR_rains>:nth-child(2){top:25%;}
 
-#CR_page #CR_rains>:nth-child(3){top:50%;}
+#CR_page #CR_rains>:nth-child(3){top:55%;}
 
 #CR_page #CR_rains>:nth-child(4){top:80%;}
 
@@ -1001,28 +1001,28 @@ height:8.5em;
 
 #CR_page #CR_flood>:nth-child(2){top:30%;}
 
-#CR_page #CR_flood>:nth-child(3){top:75%;}
+#CR_page #CR_flood>:nth-child(3){top:70%;}
 
 #CR_page #CR_volunteer1>:first-child{top:0%;}
 
 #CR_page #CR_volunteer1>:nth-child(2){top:40%;}
 
-#CR_page #CR_volunteer1>:nth-child(3){top:70%;}
+#CR_page #CR_volunteer1>:nth-child(3){top:80%;}
 
 #CR_page #CR_volunteer2>:first-child{top:0%;}
 
-#CR_page #CR_volunteer2>:nth-child(2){top:75%;}
+#CR_page #CR_volunteer2>:nth-child(2){top:70%;}
 
 /*different textbox width for #nuclear*/
 #CR_page #CR_nuclear div{width:45%;}
 
 #CR_page #CR_nuclear>:first-child{top:0%;}
 
-#CR_page #CR_nuclear>:nth-child(2){top:30%;}
+#CR_page #CR_nuclear>:nth-child(2){top:25%;}
 
 #CR_page #CR_nuclear>:nth-child(3){top:50%;}
 
-#CR_page #CR_nuclear>:nth-child(4){top:80%;}
+#CR_page #CR_nuclear>:nth-child(4){top:75%;}
 
 #EQ_page #SF1906>:first-child{top:5%;}
 
