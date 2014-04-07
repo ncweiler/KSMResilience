@@ -453,7 +453,7 @@ font-family: sans-serif;
 
 #third_tn {
     top:7%;
-    left:10%;   
+    left:10%;
 }
 
 #third_cap {
@@ -465,18 +465,21 @@ font-family: sans-serif;
 
 #comics_page .thumbnail{
     width:18em;
-    height:20em;}
+    height:20em;
+}
 
 
 #comics_page .thumbnail.left{
     float:left;
     clear:left;
-    left:5%;}
+    left:5%;
+}
 
 #comics_page .thumbnail.right{
     float:right;
     clear:right;
-    right:5%;}
+    right:5%;
+}
 
 #comics_page .thumbnail.top{
     top:0%;
@@ -638,6 +641,14 @@ font-family: sans-serif;
     padding-bottom:10px;
 }
 
+.caption p{
+    color: white;
+    font: bold 20px Sans-Serif;
+    text-align:left;
+    padding:5px;}
+
+#sealevel_rise
+
 .comic{
     top:0.5%;
     left:2%;
@@ -697,19 +708,18 @@ font-family: sans-serif;
 }
 
 #accenture_cap ul{
-margin:0;}
+    margin:0;
+}
 
-#sealevel_cap{
-    height:10%;
+#risingseas_page .caption{
+    height:14%;
     width:97.25%;
     left:1%;
-    top:88.5%;
-    background-color:grey;
-}
+    top:84.5%;
+    background-color:grey;}
 
-#sealevel_cap li{
-    padding:0px;
-}
+#risingseas_page .caption p{
+    margin:5px;}
 
 #sealevel_help1 .caption{
     height:10%;
