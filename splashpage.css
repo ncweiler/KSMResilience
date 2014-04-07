@@ -943,8 +943,9 @@ html.CS_page .cs_pane>:first-child p{
 }
 
 /*page-specific formatting*/
-#CR_page #blank1{
-    height:8.5em;}
+#CR_page #CR_blank1{
+    height:8.5em;
+}
 
 #EQ_page #SF1906 object{
     height:40em;
@@ -967,40 +968,40 @@ height:8.5em;
 }
 
 /*set textbox positions for each page*/
-#CR_page #rains>:first-child{top:0%;}
+#CR_page #CR_rains>:first-child{top:0%;}
 
-#CR_page #rains>:nth-child(2){top:20%;}
+#CR_page #CR_rains>:nth-child(2){top:20%;}
 
-#CR_page #rains>:nth-child(3){top:50%;}
+#CR_page #CR_rains>:nth-child(3){top:50%;}
 
-#CR_page #rains>:nth-child(4){top:80%;}
+#CR_page #CR_rains>:nth-child(4){top:80%;}
 
-#CR_page #flood>:first-child{top:0%;}
+#CR_page #CR_flood>:first-child{top:0%;}
 
-#CR_page #flood>:nth-child(2){top:30%;}
+#CR_page #CR_flood>:nth-child(2){top:30%;}
 
-#CR_page #flood>:nth-child(3){top:75%;}
+#CR_page #CR_flood>:nth-child(3){top:75%;}
 
-#CR_page #volunteer1>:first-child{top:0%;}
+#CR_page #CR_volunteer1>:first-child{top:0%;}
 
-#CR_page #volunteer1>:nth-child(2){top:40%;}
+#CR_page #CR_volunteer1>:nth-child(2){top:40%;}
 
-#CR_page #volunteer1>:nth-child(3){top:70%;}
+#CR_page #CR_volunteer1>:nth-child(3){top:70%;}
 
-#CR_page #volunteer2>:first-child{top:0%;}
+#CR_page #CR_volunteer2>:first-child{top:0%;}
 
-#CR_page #volunteer2>:nth-child(2){top:75%;}
+#CR_page #CR_volunteer2>:nth-child(2){top:75%;}
 
 /*different textbox width for #nuclear*/
-#CR_page #nuclear div{width:45%;}
+#CR_page #CR_nuclear div{width:45%;}
 
-#CR_page #nuclear>:first-child{top:0%;}
+#CR_page #CR_nuclear>:first-child{top:0%;}
 
-#CR_page #nuclear>:nth-child(2){top:30%;}
+#CR_page #CR_nuclear>:nth-child(2){top:30%;}
 
-#CR_page #nuclear>:nth-child(3){top:50%;}
+#CR_page #CR_nuclear>:nth-child(3){top:50%;}
 
-#CR_page #nuclear>:nth-child(4){top:80%;}
+#CR_page #CR_nuclear>:nth-child(4){top:80%;}
 
 #EQ_page #SF1906>:first-child{top:5%;}
 
