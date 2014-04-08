@@ -72,10 +72,6 @@ html, body{
     width:100%;
 }
 
-#header .section_thumb #networks_thumb{
-    margin:-50px 0px 0px -65px;
-}
-
 #mainpage{
     position:absolute;
     width:98.5%;
@@ -354,8 +350,8 @@ font-family: sans-serif;
     display:block;
     text-align:center;
     
-    border-bottom:4px solid #a65200 /*black*/;
-    border-right:4px solid #a65200 /*black*/;
+    /*border-bottom:4px solid #a65200 /*black*/;
+    /*border-right:4px solid #a65200 /*black*/;
     
     width:17.5%;
     height:30%;
