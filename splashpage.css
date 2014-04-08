@@ -124,6 +124,65 @@ html, body{
     border-radius:50px;
 }
 
+
+/*Default caption formatting (for resource pages)*/
+.caption {
+    position:absolute;
+    display:block;
+
+    /*
+    width:33%;
+    height:82%;
+    top:15%;
+    right:2%;
+    clear:right;
+    */
+
+    background-color:gray;
+    border:0.3em solid skyblue;
+
+    color: white;
+    font: bold 20px Sans-Serif;
+    text-align:left;
+    padding:5px;
+
+    /*
+    font-size:18pt;
+    text-align:left;
+    font-family:Sans-Serif;
+    */
+
+}
+
+.caption li{
+    padding-top: 5px;
+    padding-bottom:5px;
+    /*color: white;
+    font: bold 20px Sans-Serif;
+    text-align:left;*/
+}
+/*
+.caption p{
+    color: white;
+    font: bold 20px Sans-Serif;
+    text-align:left;
+    padding:5px;}
+*/
+
+/* formatting for credit <p> at bottom of caption*/
+.cap_cred{
+    margin-top:10px;
+    padding:0px;
+    text-align:center;
+    font-weight:normal;
+    font-style:italic;
+    font-size:18px
+}
+
+.cap_cred span{
+    font-weight:bold;}
+
+
 /*Thumbnail formatting for splashpage*/
 
 #splashpage .thumbnail{
@@ -154,6 +213,8 @@ html, body{
 
 #splashpage .thumbnail.bottom{top:21.5em;}
 
+
+/*Formatting for 1_casestudies.html*/
 .CS_splash{
     width:17.5em;
     height:17.5em;
@@ -245,7 +306,9 @@ html, body{
     border-right:none;
 }
 
-/*Specific thumbnail formatting for risk page*/
+
+/*Formatting for risk page*/
+
 #riskpage .thumbnail{
     position:absolute;
     float:right;
@@ -286,7 +349,7 @@ html, body{
 
 }
 
-#riskdef{
+#riskpage #riskdef{
     display:block;
     position:relative;
     width:50%;
@@ -303,13 +366,13 @@ html, body{
     color:white;
 }
 
-#riskdef p{
+#riskpage #riskdef p{
     font-family:sans-serif;
     color:white;
     font-size: 18px;
 }
 
-#riskdef h3{
+#riskpage #riskdef h3{
 font-family: sans-serif;
 }
 
@@ -318,7 +381,8 @@ font-family: sans-serif;
     font-size:20px;
 }
 
-.qc_frame {
+/*formatting for quincunx frame on risk page*/
+#riskpage .qc_frame {
     display:block;
     position:relative;
     float:left;
@@ -331,7 +395,7 @@ font-family: sans-serif;
     height:50%;
 }
 
-.qc_frame iframe {
+#riskpage .qc_frame iframe {
     position:absolute;
     height:100%;
     width:100%;
@@ -343,6 +407,8 @@ font-family: sans-serif;
 #riskpage #NOAA {top:37%;}
 
 #riskpage #UNGRiD {top:70%;}
+
+
 
 /*Specific thumbnail formatting for planning and networks page*/
 .plan-net_tn{
@@ -553,11 +619,12 @@ font-family: sans-serif;
     overflow:hidden;
 }
 
-/*Accenture DisasterViz resource_frame formatting*/
-#accenture_page .resource_frame {
+/*2-2a Accenture DisasterViz formatting*/
 
+#accenture_page .resource_frame {
     width:60%;
     height:60%;
+
     top: 14%;
     left:19.6%;
     margin:0px;
@@ -643,6 +710,40 @@ font-family: sans-serif;
 #risingseas_page .caption ul{
     margin:0px}
 
+
+/* 2-2c UNISDRmap_page formatting*/
+
+#UNISDRmap_page .resource_frame{
+    width:94%;
+    height:74%;
+    left:2.9%;
+    top:10%;
+}
+
+#UNISDRmap_page .resource_frame iframe {
+}
+
+/*scale iframe contents*/
+#UNISDRmap_page .resource_frame iframe {
+    }
+
+
+#UNISDRmap_page .caption{
+    height:16%;
+    width:94%;
+    left:2.5%;
+    top:13%;
+    margin:0%;
+}
+
+#UNISDRmap_page .caption ul{
+    margin:0px;
+}
+
+
+
+
+
 #stopdframe {
     width:55%;
     left:4.5%;
@@ -658,62 +759,6 @@ font-family: sans-serif;
     left:-185px;
     overflow:visible;
 }
-
-.caption {
-    position:absolute;
-    display:block;
-
-    /*
-    width:33%;
-    height:82%;
-    top:15%;
-    right:2%;
-    clear:right;
-    */
-
-    background-color:gray;
-    border:0.3em solid skyblue;
-
-    color: white;
-    font: bold 20px Sans-Serif;
-    text-align:left;
-    padding:5px;
-
-    /*
-    font-size:18pt;
-    text-align:left;
-    font-family:Sans-Serif;
-    */
-
-}
-
-.caption li{
-    padding-top: 5px;
-    padding-bottom:5px;
-    /*color: white;
-    font: bold 20px Sans-Serif;
-    text-align:left;*/
-}
-/*
-.caption p{
-    color: white;
-    font: bold 20px Sans-Serif;
-    text-align:left;
-    padding:5px;}
-*/
-
-/* formatting for credit <p> at bottom of caption*/
-.cap_cred{
-    margin-top:10px;
-    padding:0px;
-    text-align:center;
-    font-weight:normal;
-    font-style:italic;
-    font-size:18px
-}
-
-.cap_cred span{
-    font-weight:bold;}
 
 .comic{
     top:0.5%;
@@ -773,21 +818,6 @@ font-family: sans-serif;
     text-align: center;
 }
 
-#unisdr_cap{
-    height:10%;
-    width:98%;
-    left:1%;
-    top:14%;
-    background-color:grey;
-    color: white;
-    font: bold 20px Sans-Serif;
-    border:0.1em solid skyblue;
-}
-
-#unisdr_cap p{
-    margin:0px;
-    padding:5px;
-}
 
 #zombie_cap{
     height:7.5%;
