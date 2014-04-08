@@ -1175,10 +1175,39 @@ height:8.5em;
 
 #sandy_page #palisadebay>:nth-child(2){width:50%; top:86.5%;}
 
+#ss_trickery1{
+    background-color: black;
+    width:35%;
+    border: 2px solid white;
+    left:3.75%;
+    height:5%;
+}
+
+#ss_trickery2{
+    background-color: black;
+    width:23%;
+    border: 2px solid white;
+    right:3.75%;
+    height:7.%;
+}
+
+#ss_trickery1 p, #ss_trickery2 p {
+    padding:0px;
+    margin:auto;
+    text-align: center;
+    
+}
+
+#sandy_page #rbd_ss{
+    position:absolute;
+    height:100%;
+    width:100%;
+}
+
 #sandy_page #tnc_1 {
     top:1%;
     width:100%;
-    height:auto;;
+    height:auto;
     border-radius:0px;
     background-color: black;
 }
