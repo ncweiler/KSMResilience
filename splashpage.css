@@ -764,21 +764,33 @@ font-family: sans-serif;
     border:0.1em solid skyblue;
 }
 
-#stopdframe {
+
+/*3b Stopdisasters page formatting*/
+
+#stopdisasters_page .resource_frame {
     width:55%;
     left:4.5%;
     top:1%;
 }
 
-
-
-#stopd {
+#stopdisasters_page iframe {
     width:150%;
     height:200%;
     top:-150px;
     left:-185px;
     overflow:visible;
 }
+
+#stopdisasters_page .caption{
+    width:35%;
+    height:auto;
+
+    top:22%;
+    left:63%;
+}
+
+
+/*   */
 
 .comic{
     top:0.5%;
@@ -852,19 +864,6 @@ font-family: sans-serif;
 }
 
 
-
-#stopdisasters_caption{
-    width:35%;
-    height:auto;
-
-    top:27%;
-    left:63%;
-
-    background-color:grey;
-    color: white;
-    font: bold 20px Sans-Serif;
-    border:0.1em solid skyblue;
-}
 
 #twitter_share_block{
     position:absolute;
