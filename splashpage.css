@@ -708,16 +708,16 @@ font-family: sans-serif;
     }
 
 #risingseas_page .caption ul{
-    margin:0px}
+    margin:0px;}
 
 
 /* 2-2c UNISDRmap_page formatting*/
 
 #UNISDRmap_page .resource_frame{
     width:94%;
-    height:74%;
+    height:80%;
     left:2.9%;
-    top:10%;
+    top:2.4%;
 }
 
 #UNISDRmap_page .resource_frame iframe {
@@ -729,7 +729,7 @@ font-family: sans-serif;
 
 
 #UNISDRmap_page .caption{
-    height:16%;
+    height:18.5%;
     width:94%;
     left:2.5%;
     top:13%;
@@ -955,9 +955,7 @@ html.CS_page{
     overflow-y:visible;
     border:0px solid black;
     z-index=-2;
-
 }
-
 
 html.CS_page #header{
     position:fixed;
