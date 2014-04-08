@@ -342,11 +342,11 @@ font-family: sans-serif;
 }
 
 /*vertical positioning of riskpage thumbnails*/
-#accenture {top:5%;}
+#riskpage #accenture {top:5%;}
 
-#NOAA {top:37%;}
+#riskpage #NOAA {top:37%;}
 
-#UNGRiD {top:70%;}
+#riskpage #UNGRiD {top:70%;}
 
 /*Specific thumbnail formatting for planning and networks page*/
 .plan-net_tn{
@@ -559,19 +559,13 @@ font-family: sans-serif;
 
 /*Accenture DisasterViz resource_frame formatting*/
 #accenture .resource_frame {
-    position:absolute;
-    display:inline-block;
 
     width:60%;
     height:60%;
     top: 14%;
-    left:20%;
-    margin:auto;
+    left:19.6%;
+    margin:0px;
 
-    border: 0.3em solid black;
-    background-color:white;
-    clear:both;
-    overflow:hidden;
     padding: 0;
 }
 
@@ -594,6 +588,22 @@ font-family: sans-serif;
         -webkit-transform: scale(0.75);
         -webkit-transform-origin: 0 0;
     }
+
+#accenture_cap{
+    height:19%;
+    width:60%;
+
+    left:19.5%;
+    top:77%;
+    /*
+    background-color:grey;
+    padding:5px;
+    color:white;*/
+}
+
+#accenture_cap ul{
+    margin:0px;
+}
 
 #rising_seas_frame {
     position:absolute;
@@ -624,31 +634,54 @@ font-family: sans-serif;
     position:absolute;
     display:block;
 
+    /*
     width:33%;
     height:82%;
     top:15%;
     right:2%;
-    font-size:18pt;
+    clear:right;
+    */
+
+    background-color:gray;
     border:0.3em solid skyblue;
 
+    color: white;
+    font: bold 20px Sans-Serif;
     text-align:left;
-    font-family:sans-serif;
+    padding:5px;
 
-    clear:right;
+    /*
+    font-size:18pt;
+    text-align:left;
+    font-family:Sans-Serif;
+    */
+
 }
 
 .caption li{
-    padding-top: 10px;
-    padding-bottom:10px;
+    padding-top: 5px;
+    padding-bottom:5px;
+    /*color: white;
+    font: bold 20px Sans-Serif;
+    text-align:left;*/
 }
-
+/*
 .caption p{
     color: white;
     font: bold 20px Sans-Serif;
     text-align:left;
     padding:5px;}
+*/
 
-#sealevel_rise
+/* formatting for credit <p> at bottom of caption*/
+.cap_cred{
+    margin-top:5px;
+    padding:0px;
+    text-align:center;
+    font-weight:normal;
+    font-style:italic;
+    font-size:18px
+}
 
 .comic{
     top:0.5%;
@@ -693,24 +726,13 @@ font-family: sans-serif;
     top:90%;
     height:8%;
     background-color:grey;
-    color: white;
+    /*color: white;
     font: bold 20px Sans-Serif;
     border:0.3em solid skyblue;
-    padding:5px;
+    padding:5px;*/
 }
 
-#accenture_cap{
-    height:20%;
-    width:60%;
-    left:19.5%;
-    top:76%;
-    background-color:grey;
-    padding:5px;
-}
 
-#accenture_cap ul{
-    margin:0;
-}
 
 #risingseas_page .caption{
     height:14%;
