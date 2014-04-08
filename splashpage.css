@@ -1115,27 +1115,27 @@ height:8.5em;
 
 /* Textbox formatting for Case Study 2a */
 
-#CR_page #andrew>:first-child{top:0%;}
+#Hurricane_page #andrew>:first-child{top:0%;}
 
-#CR_page #andrew>:nth-child(2){top:50%;}
+#Hurricane_page #andrew>:nth-child(2){top:50%;}
 
-#CR_page #andrew>:nth-child(3){top:75%;}
+#Hurricane_page #andrew>:nth-child(3){top:75%;}
 
-#CR_page #roof>:first-child{top:0%;}
+#Hurricane_page #roof>:first-child{top:0%;}
 
-#CR_page #roof>:nth-child(2){top:20%;}
+#Hurricane_page #roof>:nth-child(2){top:20%;}
 
-#CR_page #roof>:nth-child(3){top:50%;}
+#Hurricane_page #roof>:nth-child(3){top:50%;}
 
-#CR_page #roof>:nth-child(4){top:80%;}
+#Hurricane_page #roof>:nth-child(4){top:80%;}
 
-#CR_page #charlie>:first-child{top:0%;}
+#Hurricane_page #charlie>:first-child{top:0%;}
 
-#CR_page #charlie>:nth-child(2){top:30%;}
+#Hurricane_page #charlie>:nth-child(2){top:30%;}
 
-#CR_page #charlie>:nth-child(3){top:60%;background-color: black;}
+#Hurricane_page #charlie>:nth-child(3){top:60%;background-color: black;}
 
-#CR_page #charlie>:nth-child(4){top:75%;}
+#Hurricane_page #charlie>:nth-child(4){top:75%;}
 
 /*Textbox formatting for case study 2b*/
 
@@ -1163,19 +1163,30 @@ height:8.5em;
 
 /*Textbox formatting for case study 4*/
 
-#CR_page #sandypane>:first-child{top:0%;font-size:0.8em;}
+#sandy_page #sandypane>:first-child{top:0%;font-size:0.8em;}
 
-#CR_page #sandypane>:nth-child(2){top:20%;}
+#sandy_page #sandypane>:nth-child(2){top:20%;}
 
-#CR_page #sandypane>:nth-child(3){top:50%;}
+#sandy_page #sandypane>:nth-child(3){top:50%;}
 
-#CR_page #sandypane>:nth-child(4){top:62.5%;font-size:1.5em;}
+#sandy_page #sandypane>:nth-child(4){top:68%;font-size:1.5em;}
 
-#CR_page #palisadebay>:nth-child(1){font-size:0.8em; width:50%;}
+#sandy_page #palisadebay>:nth-child(1){font-size:0.8em; width:50%;}
 
-#CR_page #palisadebay>:nth-child(2){width:50%; top:85%;}
+#sandy_page #palisadebay>:nth-child(2){width:50%; top:86.5%;}
 
-#CR_page #prefema>:nth-child(1){width:100%; border-radius:0px; top:85%;}
+#sandy_page #tnc_1 {
+    top:1%;
+    width:100%;
+    height:auto;;
+    border-radius:0px;
+    background-color: black;
+}
+
+#sandy_page #tnc_1 p{
+    padding-top:0px;
+    margin:auto;
+}
 
 #greeninf{
     background-color:black;
