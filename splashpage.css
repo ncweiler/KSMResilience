@@ -944,12 +944,12 @@ color:white;
 
 /*formatting for case study pages*/
 
-html.CS_page{
+html.CS_page, body.CS_page{
     /* This restricts the body of each page to the resolution of the Idea Lab monitors
     position:relative;*/
-    min-width:1356px;
+    min-width:1336px;
     min-height:768px;
-    width:1356px;
+    width:1336px;
     height:768px;
     max-height:768px;
     overflow-y:visible;
