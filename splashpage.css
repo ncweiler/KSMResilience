@@ -741,8 +741,28 @@ font-family: sans-serif;
 }
 
 
+/*3a Firegame page formatting*/
 
+#firegame_page .resource_frame {
+    height:66%;
+    width:44%;
+    margin-left:10%;
+    top:7.5%;
+    overflow:hidden;
+}
 
+#firegame_page .caption{
+    width:40%;
+    height:auto;
+
+    top:35%;
+    left:57.5%;
+
+    background-color:grey;
+    color: white;
+    font: bold 20px Sans-Serif;
+    border:0.1em solid skyblue;
+}
 
 #stopdframe {
     width:55%;
@@ -787,14 +807,6 @@ font-family: sans-serif;
     font-size:20px;
 }
 
-#livingwfire {
-    height:66%;
-    width:44%;
-    margin-left:10%;
-    top:7.5%;
-    overflow:hidden;
-}
-
 #gcrisis_cap{
     height:10%;
     border:none;
@@ -837,17 +849,7 @@ font-family: sans-serif;
     margin:auto;
 }
 
-#fire_caption{
-    width:40%;
-    height:auto;
 
-    top:35%;
-
-    background-color:grey;
-    color: white;
-    font: bold 20px Sans-Serif;
-    border:0.1em solid skyblue;
-}
 
 #stopdisasters_caption{
     width:35%;
