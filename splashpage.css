@@ -353,7 +353,7 @@ html, body{
     display:block;
     position:relative;
     width:50%;
-    height:48%;
+    height:44%;
     float:left;
     text-align: center;
     top: 1%;
@@ -764,20 +764,29 @@ font-family: sans-serif;
     border:0.1em solid skyblue;
 }
 
-#stopdframe {
+
+/*3b Stopdisasters page formatting*/
+
+#stopdisasters_page .resource_frame {
     width:55%;
     left:4.5%;
     top:1%;
 }
 
-
-
-#stopd {
+#stopdisasters_page iframe {
     width:150%;
     height:200%;
     top:-150px;
     left:-185px;
     overflow:visible;
+}
+
+#stopdisasters_page .caption{
+    width:35%;
+    height:auto;
+
+    top:22%;
+    left:63%;
 }
 
 .comic{
@@ -850,7 +859,6 @@ font-family: sans-serif;
 #zombie_cap p{
     margin:auto;
 }
-
 
 #stopdisasters_caption{
     width:35%;
