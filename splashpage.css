@@ -554,7 +554,7 @@ font-family: sans-serif;
 }
 
 /*Accenture DisasterViz resource_frame formatting*/
-#accenture .resource_frame {
+#accenture_page .resource_frame {
 
     width:60%;
     height:60%;
@@ -565,16 +565,13 @@ font-family: sans-serif;
     padding: 0;
 }
 
-#accenture .resource_frame iframe {
-    position:absolute;
-    display: block;
+#accenture_page .resource_frame iframe {
     height:150%;
     width:150%;
-    overflow:hidden;
 }
 
 /*scale iframe contents*/
-#accenture .resource_frame iframe {
+#accenture_page .resource_frame iframe {
         /*scale for multiple browsers*/
         -ms-zoom: 0.75;
         -moz-transform: scale(0.75);
@@ -601,14 +598,50 @@ font-family: sans-serif;
     margin:0px;
 }
 
-#rising_seas_frame {
-    position:absolute;
-    display:block;
-    margin-top:-50px;
-    height:107.5%;
-    width:100%;
-    overflow:hidden;
+
+
+/*2-2b Rising Seas formatting*/
+
+#risingseas_page .resource_frame {
+    width:90%;
+    height:72%;
+
+    top: 14%;
+    left:5%;
+
+    margin:0px;
+    padding:0px;
 }
+
+#risingseas_page .resource_frame iframe {
+    /*hide menu-bar*/
+    height:110%;
+    top:-10%;
+}
+
+/*scale iframe contents*/
+#risingseas_page .resource_frame iframe {
+        /*scale for multiple browsers*/
+        -ms-zoom: 1;
+        -moz-transform: scale(1);
+        -moz-transform-origin: 0 0;
+        -o-transform: scale(1);
+        -o-transform-origin: 0 0;
+        -webkit-transform: scale(1);
+        -webkit-transform-origin: 0 0;
+    }
+
+#risingseas_page .caption{
+    height:16%;
+    width:89.2%;
+
+    left:5%;
+    top:81%;
+    margin:0%;
+    }
+
+#risingseas_page .caption ul{
+    margin:0px}
 
 #stopdframe {
     width:55%;
@@ -671,13 +704,16 @@ font-family: sans-serif;
 
 /* formatting for credit <p> at bottom of caption*/
 .cap_cred{
-    margin-top:5px;
+    margin-top:10px;
     padding:0px;
     text-align:center;
     font-weight:normal;
     font-style:italic;
     font-size:18px
 }
+
+.cap_cred span{
+    font-weight:bold;}
 
 .comic{
     top:0.5%;
@@ -727,18 +763,6 @@ font-family: sans-serif;
     border:0.3em solid skyblue;
     padding:5px;*/
 }
-
-
-
-#risingseas_page .caption{
-    height:14%;
-    width:97.25%;
-    left:1%;
-    top:84.5%;
-    background-color:grey;}
-
-#risingseas_page .caption p{
-    margin:5px;}
 
 #elp1 .caption{
     height:10%;
