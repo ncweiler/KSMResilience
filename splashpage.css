@@ -947,9 +947,9 @@ color:white;
 html.CS_page{
     /* This restricts the body of each page to the resolution of the Idea Lab monitors
     position:relative;*/
-    min-width:1366px;
+    min-width:1356px;
     min-height:768px;
-    width:1366px;
+    width:1356px;
     height:768px;
     max-height:768px;
     overflow-y:visible;
