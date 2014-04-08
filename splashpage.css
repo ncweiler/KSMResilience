@@ -838,7 +838,7 @@ font-family: sans-serif;
     border:none;
     width:90%;
     left:5%;
-    top:91.5%;
+    top:90%;
     background-color:black;
     color: white;
     font: bold 20px Sans-Serif;
@@ -850,7 +850,6 @@ font-family: sans-serif;
 #zombie_cap p{
     margin:auto;
 }
-
 
 
 #stopdisasters_caption{
