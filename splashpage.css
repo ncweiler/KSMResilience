@@ -1066,6 +1066,30 @@ html.CS_page .cs_pane>:first-child p{
     font-weight:bold;
 }
 
+/* Formatting for case study page captions */
+
+.CS_page .CS_credits{
+    position:absolute;
+    background-color:black;
+    width:40%;
+    left:30.5%;
+    opacity:0.7; /* transparency */
+    filter:alpha(opacity=70); /* IE transparency */
+    line-height:1.5;
+    padding:.5em;
+    border-radius:5em 5em 0em 0em;
+}
+
+.CS_page .CS_credits p,ol{
+    font-size:1.2em;
+    color:white;
+    font-weight:bold;
+    }
+
+.CS_page .CS_credits p{
+    text-align:center;
+}
+
 /*page-specific formatting*/
 
 /*Cedar Rapids page - 1-1_cityunderwater */
@@ -1186,41 +1210,32 @@ Initially split into two case studies, one about Florida and one about Hurricane
 
 /*formatting for earthquake case study - 1-3_culturesofEQresilience*/
 
+/*Slideshow on EQ_page*/
 #EQ_page #SF1906 object{
     height:35em;
 }
 
+/*Formatting for textboxes on EQ page*/
+
 #EQ_page #blank1{
 height:8.5em;
 }
+#EQ_page #blank1>:nth-child(2){top:41%;}
 
 #EQ_page #blank2{
 height:8.5em;
 }
+#EQ_page #blank2>:nth-child(2){top:21%;}
 
 #EQ_page #blank3{
 height:6em;
 }
+#EQ_page #blank3>:nth-child(2){top:21%;}
 
 #EQ_page #blank4{
 height:8.5em;
 }
-
-
-
-#EQ_page #SF1906>:first-child{top:5%;}
-
-#EQ_page #SF1906>:nth-child(2){top:75%;}
-
-#EQ_page #blank1>:nth-child(2){top:41%;}
-
-#EQ_page #blank2>:nth-child(2){top:21%;}
-
-#EQ_page #blank3>:nth-child(2){top:21%;}
-
 #EQ_page #blank4>:nth-child(2){top:21%;}
-
-
 
 /*Textbox formatting for case study 4*/
 
@@ -1235,6 +1250,8 @@ height:8.5em;
 #sandy_page #palisadebay>:nth-child(1){font-size:0.8em; width:50%;}
 
 #sandy_page #palisadebay>:nth-child(2){width:50%; top:86.5%;}
+
+/*Labels for Flickr slideshow*/
 
 #ss_trickery1{
     background-color: black;
@@ -1265,6 +1282,8 @@ height:8.5em;
     width:100%;
 }
 
+/*Labels for TNC illustrations*/
+
 #sandy_page #tnc_1 {
     top:1%;
     width:100%;
@@ -1277,6 +1296,8 @@ height:8.5em;
     padding-top:0px;
     margin:auto;
 }
+
+/*Formatting for page-wide captoins*/
 
 #greeninf{
     background-color:black;
@@ -1291,27 +1312,8 @@ height:8.5em;
     font-weight:bold;
 }
 
-.CS_page .CS_credits{
-    position:absolute;
-    background-color:black;
-    width:40%;
-    left:30.5%;
-    opacity:0.7; /* transparency */
-    filter:alpha(opacity=70); /* IE transparency */
-    line-height:1.5;
-    padding:.5em;
-    border-radius:5em 5em 0em 0em;
-}
-
-.CS_page .CS_credits p,ol{
-    font-size:1.2em;
-    color:white;
-    font-weight:bold;
-    }
-
-.CS_page .CS_credits p{
-    text-align:center;
-}
+/* Formatting for 1-2_nextstorm */
+/* Not currently in use */
 
 #florida_tn, #katrina_tn{
     position:absolute;
@@ -1359,6 +1361,3 @@ height:8.5em;
     top:10%;
     right: 10%;
 }
-
-video{
-z-index=-1;}
