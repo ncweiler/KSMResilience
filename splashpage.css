@@ -765,7 +765,7 @@ font-family: sans-serif;
 }
 
 
-/*3b Stopdisasters page formatting*/
+/* 3b - Stopdisasters page formatting*/
 
 #stopdisasters_page .resource_frame {
     width:55%;
@@ -788,6 +788,9 @@ font-family: sans-serif;
     top:22%;
     left:63%;
 }
+
+
+/* 3c - Comics pages formatting*/
 
 .comic{
     top:0.5%;
@@ -818,20 +821,6 @@ font-family: sans-serif;
     color:black;
 }
 
-#gcrisis_cap{
-    height:10%;
-    border:none;
-    width:96.5%;
-    left:1%;
-    top:90%;
-    height:8%;
-    background-color:grey;
-    /*color: white;
-    font: bold 20px Sans-Serif;
-    border:0.3em solid skyblue;
-    padding:5px;*/
-}
-
 #elp1 .caption{
     height:10%;
     width:97.25%;
@@ -860,18 +849,31 @@ font-family: sans-serif;
     margin:auto;
 }
 
-#stopdisasters_caption{
-    width:35%;
-    height:auto;
+/* 4a - googlecrisismap formatting*/
 
-    top:27%;
-    left:63%;
-
-    background-color:grey;
-    color: white;
-    font: bold 20px Sans-Serif;
-    border:0.1em solid skyblue;
+#googlecrisismap_page .resource_frame{
+    left:1.7%;
+    height:72%;
+    width:96%;
 }
+
+#googlecrisismap_page .caption{
+    height:10%;
+    width:95.5%;
+    left:1.5%;
+    top:80.5%;
+    height:16%;
+}
+
+#googlecrisismap_page .caption ul{
+    margin:0px;
+}
+
+#googlecrisismap_page .cap_cred{
+    margin:2px;
+}
+
+/* 4b - Social Media formatting*/
 
 #twitter_share_block{
     position:absolute;
@@ -884,6 +886,9 @@ font-family: sans-serif;
     top:34%;
     left:1.5%;
 }
+
+
+
 
 .tooltiptext {
     display: none;
