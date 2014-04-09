@@ -908,6 +908,42 @@ font-family: sans-serif;
     left:1.5%;
 }
 
+/* 4c Stakeholders formatting */
+
+#stakeholders_page .resource_frame{
+    left:22.5%;
+    height:80%;
+    width:55%;
+}
+
+#stakeholders_page .resource_frame img{
+    height:100%;
+    width:100%;
+}
+
+#stakeholders_page .caption{
+    height:auto;
+    width:20%;
+}
+
+#stakeholders_page #stakeholders_cap1{
+    left:0.5%;
+    top:15%;
+}
+
+#stakeholders_page #stakeholders_cap2{
+    right:0%;
+    top:15%;
+}
+
+#stakeholders_page .caption span{
+    font-weight:normal;
+    font-style:italic;
+}
+
+#stakeholders_page .caption p{
+
+    margin-left:15px;}
 
 
 .tooltiptext {
@@ -930,51 +966,7 @@ font-family: sans-serif;
     margin:auto;
 }
 
-#stakeholders{
-    position:relative;
-    left:22.5%;
-    height:80%;
-    width:55%;
-}
 
-#stakeholders img{
-    position:absolute;
-    height:100%;
-    width:100%;
-}
-
-#stakeholders_cap1{
-    height:auto;
-    width:20%;
-    left:0.5%;
-    top:15%;
-    background:gray;
-}
-
-#stakeholders_cap2{
-    height:auto;
-    width:20%;
-    right:.5%;
-    top:15%;
-    background:gray;
-}
-
-#stakeholders_page p{
-margin:0;
-padding:5px;
-color:white;
-}
-
-#draft {
-    position:absolute;
-    height:5%;
-    width:10%;
-    background:white;
-    top:10%;
-    right:15%;
-    text-align: center;
-    font: bold 20px sans-serif;
-}
 
 /*formatting for case study pages*/
 
