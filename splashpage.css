@@ -213,6 +213,22 @@ html, body{
 
 #splashpage .thumbnail.bottom{top:21.5em;}
 
+/* Thumbnail hover tool tip formatting */
+
+.tooltiptext {
+    display: none;
+    width:340px;
+    height:400px;
+    text-align:center;
+    font-size: 18px;
+    font-family:sans-serif;
+}
+
+.tooltiptext img {
+    margin:10px 10px 10px 10px;
+    height: 200px;
+    width: 200px;
+}
 
 /*Formatting for 1_casestudies.html*/
 .CS_splash{
@@ -399,6 +415,13 @@ font-family: sans-serif;
     position:absolute;
     height:100%;
     width:100%;
+}
+
+/*formatting for quincunx tooltip on risk page */
+
+#qc_tooltip{
+    height:130px;
+    margin:auto;
 }
 
 /*vertical positioning of riskpage thumbnails*/
@@ -945,29 +968,6 @@ font-family: sans-serif;
 
     margin-left:15px;}
 
-
-.tooltiptext {
-    display: none;
-    width:340px;
-    height:400px;
-    text-align:center;
-    font-size: 18px;
-    font-family:sans-serif;
-}
-
-.tooltiptext img {
-    margin:10px 10px 10px 10px;
-    height: 200px;
-    width: 200px;
-}
-
-#qc_tooltip{
-    height:130px;
-    margin:auto;
-}
-
-
-
 /*formatting for case study pages*/
 
 html.CS_page, body.CS_page{
@@ -1067,11 +1067,124 @@ html.CS_page .cs_pane>:first-child p{
 }
 
 /*page-specific formatting*/
+
+/*Cedar Rapids page - 1-1_cityunderwater */
 #CR_page #CR_blank1{
     height:8em;
 }
 
 #CR_blank1 div{width:50%}
+
+/*set textbox positions for each panel*/
+
+/*panel 1 - CR_rains*/
+#CR_page #CR_rains>:first-child{top:0%;}
+
+#CR_page #CR_rains>:nth-child(2){top:25%;}
+
+#CR_page #CR_rains>:nth-child(3){top:55%;}
+
+#CR_page #CR_rains>:nth-child(4){top:80%;}
+
+/*panel 2 - CR_flood*/
+
+#CR_page #CR_flood>:first-child{top:0%;}
+
+#CR_page #CR_flood>:nth-child(2){top:30%;}
+
+#CR_page #CR_flood>:nth-child(3){top:70%;}
+
+/*panel 3 - CR_volunteer1*/
+
+#CR_page #CR_volunteer1>:first-child{top:0%;}
+
+#CR_page #CR_volunteer1>:nth-child(2){top:40%;}
+
+#CR_page #CR_volunteer1>:nth-child(3){top:80%;}
+
+/*panel 4 - CR_volunteer2*/
+
+#CR_page #CR_volunteer2>:first-child{top:0%;}
+
+#CR_page #CR_volunteer2>:nth-child(2){top:70%;}
+
+/*panel 5 - CR_nuclear*/
+/*different textbox width for #nuclear*/
+#CR_page #CR_nuclear div{width:45%;}
+
+#CR_page #CR_nuclear>:first-child{top:0%;}
+
+#CR_page #CR_nuclear>:nth-child(2){top:25%;}
+
+#CR_page #CR_nuclear>:nth-child(3){top:50%;}
+
+#CR_page #CR_nuclear>:nth-child(4){top:75%;}
+
+/* Formatting for case study 2 - Building for the Next Storm
+
+Initially split into two case studies, one about Florida and one about Hurricane Katrina, the page currently only consists of the Florida case study, due to problems getting the permissions to use the images for the Katrina study. The CSS formatting for the Katrina study has been kept in this document, even though the site currently does not use it. */
+
+
+/* Textbox formatting for Case Study 2a - 1-2a_Florida*/
+/*panel 1 - andrew*/
+
+#Hurricane_page #andrew>:first-child{top:0%;}
+
+#Hurricane_page #andrew>:nth-child(2){top:50%;}
+
+#Hurricane_page #andrew>:nth-child(3){top:75%;}
+
+/*panel 2 - roof*/
+
+#Hurricane_page #roof>:first-child{top:0%;}
+
+#Hurricane_page #roof>:nth-child(2){top:20%;}
+
+#Hurricane_page #roof>:nth-child(3){top:50%;}
+
+#Hurricane_page #roof>:nth-child(4){top:80%;}
+
+/*panel 3 - charlie*/
+
+#Hurricane_page #charlie>:first-child{top:0%;}
+
+#Hurricane_page #charlie>:nth-child(2){top:30%;}
+
+#Hurricane_page #charlie>:nth-child(3){top:60%;background-color: black;}
+
+#Hurricane_page #charlie>:nth-child(4){top:75%;}
+
+/*Textbox formatting for case study 2b - 1-2b_Katrina*/
+/*Not currently in use */
+/*panel 1 - katrina*/
+
+#CR_page #katrina>:first-child{top:0%;}
+
+#CR_page #katrina>:nth-child(2){top:40%;}
+
+#CR_page #katrina>:nth-child(3){top:75%;}
+
+/*panel 2 - recovery 1*/
+
+#CR_page #recovery1>:first-child{top:0%;}
+
+#CR_page #recovery1>:nth-child(2){top:20%;}
+
+#CR_page #recovery1>:nth-child(3){top:60%;}
+
+#CR_page #recovery1>:nth-child(4){top:80%;}
+
+/*panel 3 -  recovery 2 */
+
+#CR_page #recovery2>:first-child{top:0%;font-size:0.8em;}
+
+#CR_page #recovery2>:nth-child(2){top:20%;}
+
+#CR_page #recovery2>:nth-child(3){top:50%;}
+
+#CR_page #recovery2>:nth-child(4){top:65%;font-size:1.5em;}
+
+/*formatting for earthquake case study - 1-3_culturesofEQresilience*/
 
 #EQ_page #SF1906 object{
     height:35em;
@@ -1093,41 +1206,7 @@ height:6em;
 height:8.5em;
 }
 
-/*set textbox positions for each page*/
-#CR_page #CR_rains>:first-child{top:0%;}
 
-#CR_page #CR_rains>:nth-child(2){top:25%;}
-
-#CR_page #CR_rains>:nth-child(3){top:55%;}
-
-#CR_page #CR_rains>:nth-child(4){top:80%;}
-
-#CR_page #CR_flood>:first-child{top:0%;}
-
-#CR_page #CR_flood>:nth-child(2){top:30%;}
-
-#CR_page #CR_flood>:nth-child(3){top:70%;}
-
-#CR_page #CR_volunteer1>:first-child{top:0%;}
-
-#CR_page #CR_volunteer1>:nth-child(2){top:40%;}
-
-#CR_page #CR_volunteer1>:nth-child(3){top:80%;}
-
-#CR_page #CR_volunteer2>:first-child{top:0%;}
-
-#CR_page #CR_volunteer2>:nth-child(2){top:70%;}
-
-/*different textbox width for #nuclear*/
-#CR_page #CR_nuclear div{width:45%;}
-
-#CR_page #CR_nuclear>:first-child{top:0%;}
-
-#CR_page #CR_nuclear>:nth-child(2){top:25%;}
-
-#CR_page #CR_nuclear>:nth-child(3){top:50%;}
-
-#CR_page #CR_nuclear>:nth-child(4){top:75%;}
 
 #EQ_page #SF1906>:first-child{top:5%;}
 
@@ -1141,53 +1220,7 @@ height:8.5em;
 
 #EQ_page #blank4>:nth-child(2){top:21%;}
 
-/* Textbox formatting for Case Study 2a */
 
-#Hurricane_page #andrew>:first-child{top:0%;}
-
-#Hurricane_page #andrew>:nth-child(2){top:50%;}
-
-#Hurricane_page #andrew>:nth-child(3){top:75%;}
-
-#Hurricane_page #roof>:first-child{top:0%;}
-
-#Hurricane_page #roof>:nth-child(2){top:20%;}
-
-#Hurricane_page #roof>:nth-child(3){top:50%;}
-
-#Hurricane_page #roof>:nth-child(4){top:80%;}
-
-#Hurricane_page #charlie>:first-child{top:0%;}
-
-#Hurricane_page #charlie>:nth-child(2){top:30%;}
-
-#Hurricane_page #charlie>:nth-child(3){top:60%;background-color: black;}
-
-#Hurricane_page #charlie>:nth-child(4){top:75%;}
-
-/*Textbox formatting for case study 2b*/
-
-#CR_page #katrina>:first-child{top:0%;}
-
-#CR_page #katrina>:nth-child(2){top:40%;}
-
-#CR_page #katrina>:nth-child(3){top:75%;}
-
-#CR_page #recovery1>:first-child{top:0%;}
-
-#CR_page #recovery1>:nth-child(2){top:20%;}
-
-#CR_page #recovery1>:nth-child(3){top:60%;}
-
-#CR_page #recovery1>:nth-child(4){top:80%;}
-
-#CR_page #recovery2>:first-child{top:0%;font-size:0.8em;}
-
-#CR_page #recovery2>:nth-child(2){top:20%;}
-
-#CR_page #recovery2>:nth-child(3){top:50%;}
-
-#CR_page #recovery2>:nth-child(4){top:65%;font-size:1.5em;}
 
 /*Textbox formatting for case study 4*/
 
