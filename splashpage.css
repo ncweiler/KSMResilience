@@ -419,9 +419,26 @@ font-family: sans-serif;
 
 /*formatting for quincunx tooltip on risk page */
 
-#qc_tooltip{
-    height:130px;
+#riskpage #qc_tooltip{
+    height:200px;
+    width:400px;
     margin:auto;
+}
+
+#riskpage #qc_tooltip p{
+    font-weight:bold;
+    text-align:center;
+}
+
+#riskpage #qc_tooltip ul{
+    text-align:left;
+}
+
+#riskpage #qc_tooltip li{
+    margin-bottom:10px;
+}
+#riskpage #qc_tooltip .cap_cred{
+    font-weight:normal;
 }
 
 /*vertical positioning of riskpage thumbnails*/
