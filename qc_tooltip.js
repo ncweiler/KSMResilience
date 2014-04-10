@@ -1,3 +1,5 @@
+//Script that generates tooltip for the Quincunx on page 2-2_riskmapping, see splash_tooltip.js for more info
+
 $(document).ready(function() {   
      $('.qc_frame').each(function(){
         $(this).qtip({
