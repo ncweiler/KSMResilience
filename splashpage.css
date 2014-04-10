@@ -241,32 +241,32 @@ html, body{
 
 /* Formatting for Section 1: Resilience in Action (1_casestudies.html) */
 
-.CS_splash{
+/* casestudies_page thumbnail formatting*/
+/*(some formatting comes from default .thumbnail, above */
+#casestudies_page .thumbnail{
     width:17.5em;
     height:17.5em;
+}
+/*Positioning of individual thumbnails*/
+#casestudies_page #flood{
     top:3%;
-    position:absolute;
-}
-
-#flood{
     left:5%;
 }
-
-#hurricane{
+#casestudies_page #hurricane{
+    top:3%;
     right:5%;
 }
-
-#earthquake{
+#casestudies_page #earthquake{
     left:5%;
     top:50%;
 }
-
-#surge{
+#casestudies_page #surge{
     right:5%;
     top:50%;
 }
 
-.cs_caption{
+/* specific formatting of captions on casestudies page */
+#casestudies_page .cs_caption{
     position:absolute;
     display:block;
     
@@ -287,26 +287,24 @@ html, body{
     background:gray;
     font-size: 20px;
 }
-
-.cs_caption h1{
+#casestudies_page .cs_caption h1{
     padding:0px;
     margin:auto;
     margin-top:20px;
     font-size: 1.5em;
 }
-
-.cs_caption p{
+#casestudies_page .cs_caption p{
     padding:0px;
     margin-top:auto;
 }
 
-#flood_cap{
+/* additonal formatting for individual captions on casestudies page*/
+#casestudies_page #flood_cap{
     border-left:none;
     left:26.15%;
     top:3%;
 }
-
-#hurricane_cap {
+#casestudies_page #hurricane_cap {
     top:25.75%;
     right:26%;
     border-top-right-radius: 0em;
@@ -315,15 +313,13 @@ html, body{
     border-bottom-left-radius: 2em; 
     border-right:none;
 }
-
-#eq_cap{
+#casestudies_page #eq_cap{
     top:50%;
     left:26.15%;
     border-left:none;
 }
-
-#surge_cap{
-    top:72.75%;
+#casestudies_page #surge_cap{
+    top:72.73%;
     right:26%;
     border-top-right-radius: 0em;
     border-bottom-right-radius: 0em;
