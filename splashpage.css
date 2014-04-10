@@ -1314,6 +1314,21 @@ height:8.5em;
     margin:auto;
 }
 
+#sandy_page #tnc_2 {
+    top:1%;
+    width:100%;
+    height:23%;
+    border-radius:0px;
+    background-color: black;
+}
+
+#sandy_page #tnc_2 p{
+    padding-top:0px;
+    margin:auto;
+    font-size:1.45em;
+    line-height: 1.3em;
+}
+
 /*Formatting for page-wide captoins*/
 
 #greeninf{
