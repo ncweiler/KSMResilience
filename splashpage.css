@@ -16,6 +16,7 @@ html, body{
 }
 
 #header{
+    /* This is the title-bar present on every page */
     position:fixed;
     display:table;
     background-color:#007439;/*#49B53E;/*#269926;/*#FF9640skyblue;*/
@@ -28,8 +29,8 @@ html, body{
     z-index:10000;
 }
 
-#title{
-    /*position:absolute;*/
+#header #title{
+    /* This formats the text in the titlebar */
     display:table-cell;
     width:60%;
     font-size:3em; /*make sure this is bold*/
@@ -41,6 +42,7 @@ html, body{
 }
 
 #header>.button{
+    /* Formatting for the left and right titlebar buttons */
     display:table-cell;
     text-align: center;
     vertical-align:middle;
@@ -48,17 +50,15 @@ html, body{
 }
 
 #header>.button img{
+    /* Formatting for the images in the left and right titlebar buttons */
     display:block;
     margin:auto;
     height:75%;
     width:75%;
 }
 
-#header>.button a{
-    text-decoration: none;
-}
-
 #header .section_thumb{
+    /* Formatting for the thumbnail image divs between the buttons and the title */
     position:absolute;
     display:table-cell;
     width:10%;
@@ -68,11 +68,13 @@ html, body{
 }
 
 #header .section_thumb img{
+    /* Formatting for the thumbnail images in the divs between the buttons and the title */
     height:100%;
     width:100%;
 }
 
 #mainpage{
+    /* Formatting for the area of the page under the titlebar */
     position:absolute;
     width:98.5%;
     height:662px;
@@ -82,7 +84,7 @@ html, body{
     z-index:-2;
 }
 
-/*Basic thumbnail formatting*/
+/* Default thumbnail formatting */
 .thumbnail{
     position:absolute;
     display:block;
@@ -100,10 +102,12 @@ html, body{
 }
 
 .thumbnail img:hover{
+    /* This is what makes the thumbnails go translucent on mouseover */
     opacity:.5
 }
 
 .thumbnail p{
+    /* This is the basic format for the thumbnail captions */
     display:block;
     position:absolute;
 
@@ -125,18 +129,10 @@ html, body{
 }
 
 
-/*Default caption formatting (for resource pages)*/
+/* Default caption formatting (blue-bordered boxes on resource pages) */
 .caption {
     position:absolute;
     display:block;
-
-    /*
-    width:33%;
-    height:82%;
-    top:15%;
-    right:2%;
-    clear:right;
-    */
 
     background-color:gray;
     border:0.3em solid skyblue;
@@ -145,29 +141,11 @@ html, body{
     font: bold 20px Sans-Serif;
     text-align:left;
     padding:5px;
-
-    /*
-    font-size:18pt;
-    text-align:left;
-    font-family:Sans-Serif;
-    */
-
 }
-
 .caption li{
     padding-top: 5px;
     padding-bottom:5px;
-    /*color: white;
-    font: bold 20px Sans-Serif;
-    text-align:left;*/
 }
-/*
-.caption p{
-    color: white;
-    font: bold 20px Sans-Serif;
-    text-align:left;
-    padding:5px;}
-*/
 
 /* formatting for credit <p> at bottom of caption*/
 .cap_cred{
@@ -183,15 +161,57 @@ html, body{
     font-weight:bold;}
 
 
-/*Thumbnail formatting for splashpage*/
+/* Default formatting for resource frames (windows in which we've embedded other websites) */
+.resource_frame {
+    position:absolute;
+    display:inline-block;
 
+    width:97.5%;
+    height:80%;
+    margin-top: 8%;
+    left:1%;
+    border: 0.3em solid black;
+
+    background-color:white;
+    clear:both;
+    overflow:hidden;
+}
+/* Each resource frame is a 'div' containing an iframe, which actually contains the embedded content. */
+.resource_frame iframe {
+    position:absolute;
+    display: block;
+    height:100%;
+    width:100%;
+    overflow:hidden;
+}
+
+
+/* Thumbnail tool tip formatting (the box that pops up on mouseover) */
+/* This is only used on the splash page and in section 2 "Who's at Risk" for the lightning animation */
+.tooltiptext {
+    display: none;
+    width:340px;
+    height:400px;
+    text-align:center;
+    font-size: 18px;
+    font-family:sans-serif;
+}
+.tooltiptext img {
+    margin:10px 10px 10px 10px;
+    height: 200px;
+    width: 200px;
+}
+
+
+/* Now we get to specific formatting for the different pages in the site */
+
+/* Additional thumbnail formatting for the splash page (index.html) */
 #splashpage .thumbnail{
     width:25em;
     height:19em;}
 #splashpage .thumbnail p{
     top:8.2em;
 }
-
 #splashpage .thumbnail.left{
     float:left;
     clear:left;
@@ -201,36 +221,26 @@ html, body{
     left:0%;
     border-radius:0em 2em 2em 0em;
 }
-
 #splashpage .thumbnail.right{
     float:right;
     clear:right;
     right:5%
 }
-#splashpage .thumbnail.right p{right:0%;border-radius:2em 0em 0em 2em;        }
-
-#splashpage .thumbnail.top{top:.5em;}
-
-#splashpage .thumbnail.bottom{top:21.5em;}
-
-/* Thumbnail hover tool tip formatting */
-
-.tooltiptext {
-    display: none;
-    width:340px;
-    height:400px;
-    text-align:center;
-    font-size: 18px;
-    font-family:sans-serif;
+#splashpage .thumbnail.right p{
+    right:0%;
+    border-radius:2em 0em 0em 2em;
+}
+#splashpage .thumbnail.top{
+    top:.5em;
+}
+#splashpage .thumbnail.bottom{
+    top:21.5em;
 }
 
-.tooltiptext img {
-    margin:10px 10px 10px 10px;
-    height: 200px;
-    width: 200px;
-}
 
-/*Formatting for 1_casestudies.html*/
+
+/* Formatting for Section 1: Resilience in Action (1_casestudies.html) */
+
 .CS_splash{
     width:17.5em;
     height:17.5em;
@@ -323,7 +333,7 @@ html, body{
 }
 
 
-/*Formatting for risk page*/
+/*Formatting for 2_understanding-risk*/
 
 #riskpage .thumbnail{
     position:absolute;
@@ -410,7 +420,6 @@ font-family: sans-serif;
     width:50%;
     height:50%;
 }
-
 #riskpage .qc_frame iframe {
     position:absolute;
     height:100%;
@@ -418,22 +427,18 @@ font-family: sans-serif;
 }
 
 /*formatting for quincunx tooltip on risk page */
-
 #riskpage #qc_tooltip{
     height:200px;
     width:400px;
     margin:auto;
 }
-
 #riskpage #qc_tooltip p{
     font-weight:bold;
     text-align:center;
 }
-
 #riskpage #qc_tooltip ul{
     text-align:left;
 }
-
 #riskpage #qc_tooltip li{
     margin-bottom:10px;
 }
@@ -441,24 +446,28 @@ font-family: sans-serif;
     font-weight:normal;
 }
 
-/*vertical positioning of riskpage thumbnails*/
-#riskpage #accenture {top:5%;}
 
-#riskpage #NOAA {top:37%;}
+/*vertical positioning of thumbnails*/
+#riskpage #accenture {
+    top:5%;
+}
+#riskpage #NOAA {
+    top:37%;
+}
+#riskpage #UNGRiD {
+    top:70%;
+}
 
-#riskpage #UNGRiD {top:70%;}
 
 
+/* Formatting for page 3_Planning-for-Uncertainty */
 
-/*Specific thumbnail formatting for planning and networks page*/
+/* additional thumbnail formatting */
 .plan-net_tn{
     position:relative;
     display:block;
     text-align:center;
-    
-    /*border-bottom:4px solid #a65200 /*black*/;
-    /*border-right:4px solid #a65200 /*black*/;
-    
+
     width:17.5%;
     height:30%;
     top:2.5%;
@@ -467,18 +476,15 @@ font-family: sans-serif;
     clear:both;
     
 }
-
 .plan-net_tn img{
     position:absolute;
     display:block;
     width:100%;
     height:100%;
 }
-
 .plan-net_tn img:hover{
     opacity:.5
 }
-
 .plan-net_tn p{
     display:block;
     position:absolute;
@@ -498,6 +504,7 @@ font-family: sans-serif;
 
 }
 
+/* Section 3 thumbnail caption formatting*/
 .tn_caption {
     position:relative;
     display:block;
@@ -519,8 +526,6 @@ font-family: sans-serif;
     color:white;
     background:gray;
     font-size: 20px;
-    
-    
 }
 
 .tn_caption h1{
@@ -566,6 +571,9 @@ font-family: sans-serif;
     top:9%;
 }
 
+
+/* Section 3-1 Be Prepared At Home (3-1_prepare.html) */
+
 #comics_page .thumbnail{
     width:18em;
     height:20em;
@@ -598,6 +606,8 @@ font-family: sans-serif;
     display:block;
     text-align:center;
     clear:both;
+    margin-top:15%;
+    margin-left:42%;
 }
 
 #comics_page .qrcode img{
@@ -606,7 +616,6 @@ font-family: sans-serif;
     width:100%;
     height:100%;
 }
-
 #comics_page .qrcode p{
     display:block;
     position:absolute;
@@ -617,47 +626,14 @@ font-family: sans-serif;
     color: black;
     font: bold 24px Helvetica, Sans-Serif;
     letter-spacing: 0em;
-
-    /*background: rgb(0, 0, 0); /* fallback color
-    background: rgba(0, 0, 0, 0.3); /* transparency */
 }
-
 #comics_page .qrcode p:nth-child(2){
     margin-top:11em;
 }
 
-#mainpage .horizctr{
-    margin-left:42%;
-}
-
-#mainpage .vertctr{
-    margin-top:15%;
-}
 
 
-/*Default resource_frame formatting*/
-.resource_frame {
-    position:absolute;
-    display:inline-block;
 
-    width:97.5%;
-    height:80%;
-    margin-top: 8%;
-    left:1%;
-    border: 0.3em solid black;
-
-    background-color:white;
-    clear:both;
-    overflow:hidden;
-}
-
-.resource_frame iframe {
-    position:absolute;
-    display: block;
-    height:100%;
-    width:100%;
-    overflow:hidden;
-}
 
 /*2-2a Accenture DisasterViz formatting*/
 
