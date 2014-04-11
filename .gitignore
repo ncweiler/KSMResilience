@@ -3,7 +3,7 @@
 *.webm
 *.wmv
 media/1-3_culturesofEQresilience/NISEE_SF_1906_EQ/*
-media\1-3_culturesofEQresilience\NISEE_SF_1906_EQ\*
+*NISEE_SF_1906_EQ*
 *.DS_Store
 *.db
 *.swf
