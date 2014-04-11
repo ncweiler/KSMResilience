@@ -30,5 +30,16 @@ The html files are broken up into the various elements that make up each part of
 
 <p> This is where the text in my paragraph goes. </p>
 
-Sometimes elements will be nested inside other elements. These are the main elements used in the exhibit:
+Oftentimes elements will be nested inside other elements. 
 
+Elements are also assigend classes and id's, which are basically labels for certain types of formatting (more on that in the CSS section). The formatting for this looks like:
+
+<element class="classname" id="idname">content</element>
+
+These are the main elements used in the exhibit:
+
+    <html> - this is the main element that is included on each page. All other elements should be placed within this element.
+    
+    <head> - contains links to other files, such as .css or .js files, that are needed to render and run the page as intended.
+    
+    <body> - 
