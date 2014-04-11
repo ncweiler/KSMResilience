@@ -26,4 +26,9 @@ The rest of the files in the main KSM_Resilience folder comprise the interactive
     
 HTML
     
-The html files are broken up into the various elements that make up each part of the page. They normally look like 
+The html files are broken up into the various elements that make up each part of the page. The syntax for an html element is <element_type> content </element_type>. For each element, it is first declared in a set of brackets, then contains the content, then is finished with another bracket that begins with a /. So for a paragraph element, denoted by p, it would look like:
+
+<p> This is where the text in my paragraph goes. </p>
+
+Sometimes elements will be nested inside other elements. These are the main elements used in the exhibit:
+
