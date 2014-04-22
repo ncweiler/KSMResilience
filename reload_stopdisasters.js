@@ -18,7 +18,7 @@ $(document).ready(function () {
 
 function timerIncrement() {
     idleTime = idleTime + 1;
-    if (idleTime > 19) { // # should be 1 less than # of minutes you want to idle before going to home page
+    if (idleTime > 29) { // # should be 1 less than # of minutes you want to idle before going to home page
         window.location.replace("index.html"); //the link to go to after idle time, index.html is the homepage
     }
 }
